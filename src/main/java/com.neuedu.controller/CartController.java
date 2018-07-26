@@ -36,9 +36,10 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 		req.setCharacterEncoding("utf-8");
 		resp.setHeader("Access-Control-Allow-Origin", "*");
 		  String operation =req.getParameter("operation");
+		   System.out.println("sssssssssss");
 		  if(operation!=null&&!operation.equals("")) {
 			  if(operation.equals("1")) {
-				  addCart(req,resp);
+   			  addCart(req,resp);
 			}else if (operation.equals("2")) {
 				 findAll(req,resp);
 			}else if (operation.equals("3")) {

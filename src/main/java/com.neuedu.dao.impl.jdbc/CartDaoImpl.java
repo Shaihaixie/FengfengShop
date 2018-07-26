@@ -296,7 +296,7 @@ return cart;
 			    rs=st.executeQuery();
 				List<Cart> list=new ArrayList<Cart>();	
 					while(rs.next()) {
-						 int  id= rs.getInt("id");	
+						 int  id= rs.getInt("id");
 						 int  productid=rs.getInt("productid");
 						 int num=rs.getInt("productnum");	 
 						 double total=productDao.findById(productid).getPrice()*num;
@@ -310,17 +310,17 @@ return cart;
 						 cart.setData(list);
 						}
 					cart.setCurrentPage(pageNo);
-				//×Ü¼ÇÂ¼Êý
+				//ï¿½Ü¼ï¿½Â¼ï¿½ï¿½
 				String sqlcount="select count(id) from cart";
 				st=conn.prepareStatement(sqlcount);
 				rs=st.executeQuery();
 				if(rs.next()) {
-					int totalcount=rs.getInt(1);//×Ü¼ÇÂ¼
-					//¼ÆËã¶àÉÙÒ³
+					int totalcount=rs.getInt(1);//ï¿½Ü¼ï¿½Â¼
+					//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³
 					int totalPage=((totalcount%pageSize)==0)?totalcount/pageSize:(totalcount/pageSize)+1;
 					cart.setTotalPage(totalPage);
 				}
-				//?Æ«ÒÆÁ¿?¶àÉÙÌõ	
+				//?Æ«ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½	
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

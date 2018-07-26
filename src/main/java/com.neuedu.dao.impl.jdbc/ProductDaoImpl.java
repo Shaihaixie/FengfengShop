@@ -26,13 +26,13 @@ public class ProductDaoImpl implements ProductDao {
 			
 			String  sql="insert into product(name,pdesc,price) values (?,?,?)";
 			st=conn.prepareStatement(sql);
-			//Õ¼Î»·û¸³Öµ
+			//Õ¼Î»ï¿½ï¿½ï¿½ï¿½Öµ
 			st.setString(1, product.getName());
 			st.setString(2, product.getDesc());
 			st.setDouble(3, product.getPrice());
-//			st.setString(4, product.getRule());
-//			st.setString(5, product.getImage());
-//			st.setInt(6, product.getStock());
+		st.setString(4, product.getRule());
+		st.setString(5, product.getImage());
+		st.setInt(6, product.getStock());
 			System.out.println(sql);
 			st.execute();
 			return true;
@@ -68,14 +68,14 @@ public class ProductDaoImpl implements ProductDao {
 			st=conn.prepareStatement(sql);
 			System.out.println(sql);
 			ResultSet rs=st.executeQuery();
-			while(rs.next()) {
-			 int  id= rs.getInt("id");	
-			 String  name=rs.getString("name");
-			 String pdesc=rs.getString("pdesc");
-			 double price=rs.getDouble("price");
-			 String rule=rs.getString("rule");
-			 String  image=rs.getString("image");
-			 int  stock=rs.getInt("stock");	
+			while (rs.next()){
+				int  id= rs.getInt("id");
+				String  name=rs.getString("name");
+				String pdesc=rs.getString("pdesc");
+				double price=rs.getDouble("price");
+				String rule=rs.getString("rule");
+				String  image=rs.getString("image");
+				int  stock=rs.getInt("stock");
 			 Product product=new Product(id,name,pdesc,price,rule,image,stock);
 			 products.add(product); 
 			}
@@ -151,16 +151,16 @@ public class ProductDaoImpl implements ProductDao {
 	@Override
 	public boolean updateProduct(Product product) {
 		// TODO Auto-generated method stub
-		//1.Á¬½ÓÊý¾Ý¿â
-		//5.Ö´ÐÐsqlÓï¾ä
+		//1.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½
+		//5.Ö´ï¿½ï¿½sqlï¿½ï¿½ï¿½
 		int count=0;
 		try {
 			Connection conn =DBUtils.getConnection();
-			//2.×¼±¸sqlÓï¾ä
+			//2.×¼ï¿½ï¿½sqlï¿½ï¿½ï¿½
 			String sql ="update product set name=?,price=?,image=?,rule=?,stock=?,pdesc=? where id=? ";
-			//3.Ô¤±àÒësqlÓï¾ä
+			//3.Ô¤ï¿½ï¿½ï¿½ï¿½sqlï¿½ï¿½ï¿½
 			PreparedStatement p =conn.prepareStatement(sql);
-			//4.¸³Öµ
+			//4.ï¿½ï¿½Öµ
 			p.setString(1,product.getName());
 			p.setDouble(2, product.getPrice());
 			p.setString(3,product.getImage());
@@ -179,11 +179,11 @@ public class ProductDaoImpl implements ProductDao {
 		}
 		return false;
 	}
-//É¾³ýÊý¾Ý
+//É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	@Override
 	public boolean deleteProduct(int id) {
 		// TODO Auto-generated method stub
-		//É¾³ýÊý¾Ý
+		//É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		int count=0;
 		try {
 			Connection conn = DBUtils.getConnection();
@@ -191,7 +191,7 @@ public class ProductDaoImpl implements ProductDao {
 			PreparedStatement pst=conn.prepareStatement(sql);
 			pst.setInt(1, id);
 			System.out.println(sql);
-			//´´½¨preparement
+			//ï¿½ï¿½ï¿½ï¿½preparement
 			count = pst.executeUpdate();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -267,17 +267,17 @@ public class ProductDaoImpl implements ProductDao {
 		ResultSet rs=null;
 		try {
 			conn=DBUtils.getConnection();
-			//×Ü¼ÇÂ¼Êý
+			//ï¿½Ü¼ï¿½Â¼ï¿½ï¿½
 			String sqlcount="select count(id) from product";
 			st=conn.prepareStatement(sqlcount);
 			rs=st.executeQuery();
 			if(rs.next()) {
-				int totalcount=rs.getInt(1);//×Ü¼ÇÂ¼
-				//¼ÆËã¶àÉÙÒ³
+				int totalcount=rs.getInt(1);//ï¿½Ü¼ï¿½Â¼
+				//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³
 				int totalPage=((totalcount%pageSize)==0)?totalcount/pageSize:(totalcount/pageSize)+1;
 				pageModel.setTotalPage(totalPage);
 			}
-			//?Æ«ÒÆÁ¿?¶àÉÙÌõ
+			//?Æ«ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			String  sql="select id,name,pdesc,price,rule ,image,stock from  product limit ?,?";
 			st=conn.prepareStatement(sql);
 			st.setInt(1, (pageNo-1)*pageSize);
@@ -364,16 +364,16 @@ public class ProductDaoImpl implements ProductDao {
 	public boolean updateStock(Product product) {
 	
 		// TODO Auto-generated method stub
-		//1.Á¬½ÓÊý¾Ý¿â
-		//5.Ö´ÐÐsqlÓï¾ä
+		//1.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½
+		//5.Ö´ï¿½ï¿½sqlï¿½ï¿½ï¿½
 		int count=0;
 		try {
 			Connection conn =DBUtils.getConnection();
-			//2.×¼±¸sqlÓï¾ä
+			//2.×¼ï¿½ï¿½sqlï¿½ï¿½ï¿½
 			String sql ="update product set stock=? where id=? ";
-			//3.Ô¤±àÒësqlÓï¾ä
+			//3.Ô¤ï¿½ï¿½ï¿½ï¿½sqlï¿½ï¿½ï¿½
 			PreparedStatement p =conn.prepareStatement(sql);
-			//4.¸³Öµ
+			//4.ï¿½ï¿½Öµ
 			p.setInt(1, product.getStock());
 			p.setInt(1, product.getId());
 			System.out.println(sql);
