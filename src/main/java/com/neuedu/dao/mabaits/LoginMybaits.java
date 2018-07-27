@@ -49,12 +49,29 @@ public class LoginMybaits implements ILoginDao {
     }
 
     @Override
-    public void addToken(String token, Account acc) {
-
+    public void   addToken(String token, Account acc) {
+//        String resource = "mybatis-config.xml";
+//        Reader reader = null;
+//        SqlSession session;
+//        try {
+//            reader = Resources.getResourceAsReader(resource);
+//        } catch (IOException e) {
+//            // TODO Auto-generated catch block
+//             e.printStackTrace();  }
+//            SqlSessionFactory sqlMapper = new SqlSessionFactoryBuilder().build(reader);
+//            session = sqlMapper.openSession(true);
+        SqlSession session  = MyBatisFactory.getSqlSession();
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("token", token);
+        map.put("accountid", acc.getAccountId()+"");
+         session.update("com.neuedu.entity.Account.addToken",map);
     }
 
     @Override
     public String findTokenByAccountid(int accountid) {
-        return null;
+        SqlSession session  = MyBatisFactory.getSqlSession();
+        return  session.selectOne("com.neuedu.entity.Account.findTokenByAccountid",accountid);
+
+
     }
 }

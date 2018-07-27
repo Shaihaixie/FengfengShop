@@ -6,4 +6,10 @@
 <select id="findByUsernameAndPassword"  resultType="com.neuedu.entity.Account"  parameterType="map">
 select * from  account where username=#{username} and password=#{password}
 </select>
+    <update id="addToken"  parameterType="map" >
+update account set token=#{token} where accountid=#{accountid}
+    </update>
+    <select id="findTokenByAccountid"  resultType="java.lang.String"  parameterType="java.lang.Integer">
+        select token from  account where accountid=#{accountid}
+    </select>
 </mapper>

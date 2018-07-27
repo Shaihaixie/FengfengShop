@@ -24,7 +24,7 @@ public class MyBatisFactory {
 
     }
     public static SqlSession getSqlSession() {
-        return getSqlSessionFactory().openSession();
+        return getSqlSessionFactory().openSession(true);
 
     }
 
