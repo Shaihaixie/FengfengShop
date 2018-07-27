@@ -18,6 +18,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Tset" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Tset/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Test/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/Tset" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

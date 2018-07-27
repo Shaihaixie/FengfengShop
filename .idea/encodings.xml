@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/OrderController.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/ProductDaoImpl.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/CartDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com.neuedu.filter/LoginFilter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com.neuedu.login.front/FrontCart.java" charset="GBK" />
   </component>
 </project>
