@@ -16,6 +16,13 @@
   <link href="../assets/css/ShopList.css" rel="stylesheet" />
      <!-- Google Fonts-->
    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <style>
+
+        .mm li{
+            font-size: 17px;
+        }
+
+    </style>
 </head>
 <body>
     <div id="wrapper">
@@ -199,18 +206,18 @@
                             </li>
                         </ul>
                     </li>-->
-                    
-                  
-                  <li>
-                        <a class="active-menu" href="v#"><i class="fa fa-fw fa-file"></i> 商品</a>
-                          
-                          <ul class="dropdown-menu nav nav-second-level">
-                          <li><a href="productbypage?pageNo=1"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li> 
-                        <li><a href="AddShop.jsp"><i class="fa fa-fw fa-file"></i> 添加商品</a> </li>
-                        <li><a href="Category?pageNo=1&operation=7"><i class="fa fa-fw fa-file"></i> 商品类别</a> </li>                      
-                           <li><a href="AddShopType.jsp"><i class="fa fa-fw fa-file"></i> 添加类别</a> </li>  
-                          </ul>
-                        </li>
+
+
+                    <li>
+                        <a class=" sp" style="background-color: #18A0A9"   href="v#"><i class="fa fa-fw fa-file   "></i> 商品</a>
+
+                        <ul class=" mm"  style="list-style-type: none;">
+                            <li><a  style="text-decoration: none;" href="productbypage?pageNo=1"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li>
+                            <li><a  style="text-decoration: none;"  href="AddShop.jsp"><i class="fa fa-fw fa-file"></i> 添加商品</a> </li>
+                            <li><a  style="text-decoration: none;" href="Category?pageNo=1&operation=7"><i class="fa fa-fw fa-file"></i> 商品类别</a> </li>
+                            <li><a style="text-decoration: none;"  href="AddShopType.jsp"><i class="fa fa-fw fa-file"></i> 添加类别</a> </li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="Cart?operation=6"><i class="fa fa-fw fa-file"></i> 购物车</a>
                     </li>
@@ -282,3 +289,12 @@
    
 </body>
 </html>
+<<script !src="../assets/js/jquery-3.3.1.min.js"></script>
+<<script>
+$(function() {
+$(".sp").click(function() {
+$(".mm").toggle(1000);
+})
+})
+
+</script>
