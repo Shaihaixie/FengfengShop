@@ -4,16 +4,17 @@ import javax.servlet.http.HttpSession;
 
 import com.neuedu.dao.ILoginDao;
 import com.neuedu.dao.impl.jdbc.LoginDaoImpl;
+import com.neuedu.dao.mabaits.LoginMybaits;
 import com.neuedu.entity.Account;
 import com.neuedu.service.ILoginService;
 import com.neuedu.utils.MD5Utils;
 
 public class LoginServiceImpl implements ILoginService{
 
-	ILoginDao loginDao=new LoginDaoImpl();
-	
+//	ILoginDao loginDao=new LoginDaoImpl();
+     ILoginDao loginDao=new LoginMybaits();
 	public Account  doLogin(String  username,String password) {
-		//½øÐÐµÇÂ¼µÄÒµÎñÂß¼­´¦Àí
+		//ï¿½ï¿½ï¿½Ðµï¿½Â¼ï¿½ï¿½Òµï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½
 		 //LoginDao loginDao=new LoginDao(); 
 		//LoginDaoMysql loginDao=new LoginDaoMysql();
 		

@@ -8,9 +8,6 @@ public class  Account{
 	public  String  password;
 	public  String  ip;
 	public  String  sex;
-	
-	
-	
     public Account(int accountId, String username, String password, String ip, String sex) {
 		super();
 		this.accountId = accountId;

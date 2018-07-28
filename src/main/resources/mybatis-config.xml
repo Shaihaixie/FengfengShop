@@ -7,6 +7,11 @@
      <settings>
      <setting name="logImpl" value="LOG4J"/>
      </settings>
+    <!--别名-->
+<typeAliases >
+<typeAlias type="com.neuedu.entity.Account" alias="Account"/>
+</typeAliases>
+
   <environments default="development">
     <environment id="development">
       <transactionManager type="JDBC"/>
@@ -20,5 +25,6 @@
   </environments>
   <mappers>
 <mapper       resource="com/neuedu/mapper/LoginMapper.xml"/>
+<mapper       resource="com/neuedu/mapper/ProductMapper.xml"/>
   </mappers>
 </configuration>

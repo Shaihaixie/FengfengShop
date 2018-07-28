@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.neuedu.dao.ProductDao;
 import com.neuedu.dao.impl.jdbc.ProductDaoImpl;
+import com.neuedu.dao.mabaits.ProductMybaits;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 import com.neuedu.service.ProductService;
@@ -12,7 +13,6 @@ public class ProductServiceImpl implements ProductService {
 
 	
 	ProductDao productDao=new ProductDaoImpl();
-	
 	@Override
 	public boolean addProduct(Product product) {
 		// TODO Auto-generated method stub

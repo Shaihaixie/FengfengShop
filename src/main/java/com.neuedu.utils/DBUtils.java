@@ -12,12 +12,12 @@ public class DBUtils {
 
 	static Properties ps=new Properties();
 	
-	//¾²Ì¬´úÂë¿é
+	//ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½
 	static {
-		//¼ÓÔØÇý¶¯
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		try {
 			ps.load(Thread.currentThread().getContextClassLoader().getResourceAsStream("jdbc.properties"));
-			Class.forName(ps.getProperty("driver"));
+			Class.forName(ps.getProperty("jdbc.driver"));
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -29,17 +29,17 @@ public class DBUtils {
 		
 	}
 	
-	//»ñÈ¡Á¬½Ó
+	//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
 	public  static   Connection  getConnection() throws SQLException {
 		
-		 String  url=ps.getProperty("url");
-		 String  user=ps.getProperty("username");
-		 String password=ps.getProperty("password");
+		 String  url=ps.getProperty("jdbc.url");
+		 String  user=ps.getProperty("jdbc.username");
+		 String password=ps.getProperty("jdbc.password");
 		 return DriverManager.getConnection(url, user, password);
 		
 	}
 	
-	//¹Ø±ÕÁ´½Ó
+	//ï¿½Ø±ï¿½ï¿½ï¿½ï¿½ï¿½
 	public  static  void  close(Connection conn,Statement st) throws SQLException {
 		if(conn!=null) {
 			conn.close();

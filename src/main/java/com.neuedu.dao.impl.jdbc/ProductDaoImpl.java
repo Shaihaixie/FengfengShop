@@ -24,13 +24,13 @@ public class ProductDaoImpl implements ProductDao {
 		try {
 			conn=DBUtils.getConnection();
 			
-			String  sql="insert into product(name,pdesc,price) values (?,?,?)";
+			String  sql="insert into product(name,pdesc,price,rule,image,stock) values (?,?,?,?,?,?)";
 			st=conn.prepareStatement(sql);
 			//ռλ����ֵ
 			st.setString(1, product.getName());
 			st.setString(2, product.getDesc());
 			st.setDouble(3, product.getPrice());
-		st.setString(4, product.getRule());
+		 st.setString(4, product.getRule());
 		st.setString(5, product.getImage());
 		st.setInt(6, product.getStock());
 			System.out.println(sql);

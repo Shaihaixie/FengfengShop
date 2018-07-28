@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neuedu.entity.Product">
+    <!--遍历商品-->
+    <select id="FindProduct"    resultType="com.neuedu.entity.Product"  >
+        select id,name,pdesc,price,rule ,image,stock from  product
+    </select>
+    <!--分页查询-->
+     <select id="findTotalCount" resultType="java.lang.Integer">
+         select count(id) from product
+     </select>
+    <select id="findProductPage"  parameterType="map"    resultType="com.neuedu.entity.Product">
+       select id,name,pdesc,price,rule ,image,stock from  product limit #{offest},#{pageSize}
+    </select>
+<!--添加商品-->
+    <insert id="addproduct"     parameterType="com.neuedu.entity.Product" keyColumn="id" keyProperty="id" statementType="PREPARED" useGeneratedKeys="true">
+insert into product(name,pdesc,price,rule,image,stock) values (#{name},#{desc},#{price},#{rule},#{image},#{stock})
+</insert>
+    <delete id="delectProductByid" parameterType="int">
+        delete from product where id=#{id}
+    </delete>
+    
+    
+<!--解决数据库字段和实体类不同的情况-->
+
+<!--    <resultMap id="productmap" type="com.neuedu.entity.Product">
+        <id column="id" property="id"/>
+        &lt;!&ndash;   &lt;!&ndash;主键第一个是数据库字段，第二个是实体类字段&ndash;&gt;&ndash;&gt;
+        <result column="name" property="name"/>
+        <result column="pdesc" property="desc"/>
+        <result column="price" property="price"/>
+        <result column="rule" property="rule"/>
+        <result column="image" property="image"/>
+        <result column="stock" property="stock"/>
+        <result column="category_id" property="category_id"/>
+    </resultMap>-->
+
+
+</mapper>

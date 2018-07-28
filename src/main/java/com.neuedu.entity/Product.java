@@ -41,13 +41,15 @@ public class Product implements Serializable{
 		this.id=id;
 		this.name=name;
 	}
-	public Product( String name, String desc, double price, String rule) {
+	public Product( String name, String desc, double price, String rule,String  image,int  stock) {
 		super();
 		
 		this.name = name;
 		this.desc = desc;
 		this.price = price;
 		this.rule = rule;
+		this.image=image;
+		this.stock=stock;
 	}
 	public Product( String name, String desc, double price) {
 		super();

@@ -17,7 +17,7 @@ public class loginTest {
       ILoginDao ILoginDao=new LoginMybaits();
       Account acc= ILoginDao.doLogin("admin","123456");
       System.out.println(acc);
-         ILoginDao.addToken("5555555",acc);
+         ILoginDao.addToken("SADDA",acc);
   }
      @Test
     public   void  findTokenByAccountid(){
