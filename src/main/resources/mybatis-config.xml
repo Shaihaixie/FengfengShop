@@ -26,6 +26,8 @@
   <mappers>
 <mapper       resource="com/neuedu/mapper/LoginMapper.xml"/>
 <mapper       resource="com/neuedu/mapper/ProductMapper.xml"/>
-      <mapper       resource="com/neuedu/mapper/CartMapper.xml"/>
+<mapper       resource="com/neuedu/mapper/CartMapper.xml"/>
+<mapper       resource="com/neuedu/mapper/OrderMapper.xml"/>
+      <mapper       resource="com/neuedu/mapper/CategoryMapper.xml"/>
   </mappers>
 </configuration>
