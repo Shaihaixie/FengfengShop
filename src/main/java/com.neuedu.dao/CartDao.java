@@ -7,51 +7,47 @@ import com.neuedu.entity.Category;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 
-/**
- * 
- * 
- * ���ﳵ
- * */
 public interface CartDao {
 
-	/**
-	 * ��ӹ��ﳵ
-	 **/
+	/*
+	* 添加购物车
+	* */
+
 	boolean  addCart(Cart cart);
-	/**
-	 * ɾ��������Ϣ��Id
+	/*
+	 * 删除购物车
 	 * */
 	boolean  deleteCart(int id);
-	/**
-	 * �޸Ĺ��ﳵ
+	/*
+	 * 修改购物车
 	 * */
 	boolean  updataeCart(Cart cart);
-	/**����id��ѯ���ﳵ*/
+	/*
+	 * 查购物车BYid
+	 * */
 	  Cart  findcartById(int id);
-	/**
-	 * ��ѯ���ﳵ
+	/*
+	 * 遍历购物车
 	 * */
 	List<Cart> findAllCart();
-	
-	/**
-	 * ��ȡ���ﳵ����Ʒ����
+
+	/*
+	 * 购物车数量
 	 * */
 	int  getCartNum();
-	
-	/**�޸Ĺ��ﳵ��Ʒ����
-	 * @param  id  Ҫ�޸ĵ���Ʒ��Id
-	 * @param  num �޸ĺ������
+
+	/*
+	 * 修改购物车
 	 * */
 	boolean  updateCart(int id, int num);
-	
 
-	/**
-	 * ��չ��ﳵ
+
+	/*
+	 * 删除购物车
 	 * */
 	void  clearCart() ;
-	/**��ҳ��ȡ
-	 * pageNo��ҳ
-	 * pageSizeҳ������
+	/*
+	 * 分页查购物车
 	 * */
 	public  PageModel<Cart> findCartByPage(int pageNo, int pageSize);
 	Cart findcartByproductid(int productid);

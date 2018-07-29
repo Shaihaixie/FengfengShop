@@ -1,6 +1,7 @@
 package com.neuedu.test;
 
 import com.neuedu.dao.ProductDao;
+import com.neuedu.dao.impl.jdbc.ProductDaoImpl;
 import com.neuedu.dao.mabaits.ProductMybaits;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
@@ -35,6 +36,39 @@ public class ProductTest {
         ProductDao  ProductDao=new ProductMybaits();
         System.out.println(  ProductDao.deleteProduct(91));
 
+    }
+    @Test
+    public    void   testupdateProduct(){
+         Product  product=new Product();
+         product.setId(81);
+         product.setName("小米12");
+        ProductDao  ProductDao=new ProductMybaits();
+         ProductDao.updateProduct(product);
+    }
+
+    @Test
+    public    void   testFindProductByid(){
+        ProductDao  ProductDao=new ProductMybaits();
+        System.out.println(ProductDao.findById(82));
+    }
+    @Test
+    public    void   testFindBycategory_id(){
+        ProductDao  ProductDao=new ProductMybaits();
+        System.out.println(ProductDao.findBycategory_id(10));
+    }
+    @Test
+    public    void   testFindByOder(){
+        ProductDao  ProductDao=new ProductMybaits();
+        System.out.println(ProductDao.findAllorder());
+    }
+    @Test
+    public    void   testUpdateStock(){
+        ProductDao  ProductDao=new ProductMybaits();
+//        Product  product=ProductDao.findById(82);
+        Product  product=new Product();
+        product.setId(82);
+         product.setStock(898);
+        System.out.println(ProductDao.updateStock(product));
     }
 
 

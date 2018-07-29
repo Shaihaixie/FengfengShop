@@ -12,7 +12,8 @@ import com.neuedu.service.ProductService;
 public class ProductServiceImpl implements ProductService {
 
 	
-	ProductDao productDao=new ProductDaoImpl();
+//	ProductDao productDao=new ProductDaoImpl();
+	ProductDao productDao=new ProductMybaits();
 	@Override
 	public boolean addProduct(Product product) {
 		// TODO Auto-generated method stub

@@ -18,7 +18,6 @@ import com.neuedu.service.impl.ProductServiceImpl;
 @WebServlet("/view/product")
 public class ProductController extends HttpServlet {
 	ProductService pService = new ProductServiceImpl();
-
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
@@ -179,7 +178,7 @@ public class ProductController extends HttpServlet {
 		boolean flag = pService.deleteProduct(Integer.parseInt(request.getParameter("id")));
 		if (flag) {
 			System.out.println("删除成功");
-//			findAll(request, response);
+		   findAll(request, response);
 
 		} else {
 			System.out.println("删除失败");

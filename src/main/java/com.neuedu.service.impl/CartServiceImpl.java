@@ -4,14 +4,15 @@ import java.util.List;
 
 import com.neuedu.dao.CartDao;
 import com.neuedu.dao.impl.jdbc.CartDaoImpl;
+import com.neuedu.dao.mabaits.CartMybaits;
 import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.service.CartService;
 
 public class CartServiceImpl implements CartService {
 
-	CartDao cartDao=new CartDaoImpl();
-	
+//	CartDao cartDao=new CartDaoImpl();
+	CartDao cartDao=new CartMybaits();
 	@Override
 	public boolean addCart(Cart cart) {
 		// TODO Auto-generated method stub
