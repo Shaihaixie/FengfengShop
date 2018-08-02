@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#dizhi{
+				width: 1000px;
+				height: 560px;
+				/*position: relative;*/
+			}
+			#dizhi1{
+				width: 400px;
+				height: 560px;
+				float: left;
+			}
+			#dizhi1 table{
+				width: 400px;
+				height: 450px;
+			}
+			#button{
+				width: 100px;
+				height: 40px;
+				color: white;
+				background-color:#FF6B00 ;
+			}
+			#table{
+				width: 70px;
+			}
+			#input{
+				width: 200px;
+				height: 30px;
+			}
+			#select{
+				height: 30px;
+			}
+			#select1{
+				height: 30px;
+			}
+			#dizhi2{
+				width: 690px;
+				height: 560px;
+				position: absolute;
+				margin-left: 420px;
+				
+			}
+			#dizhi2_1{
+				height: 80px;
+			}
+			#dizhi2 table{
+				margin-top: 20px;
+				width: 570px;
+				border: 1px solid #F2F2F2;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="dizhi">
+			
+			<div id="dizhi1">
+				<h1>收货地址</h1>
+				<form>
+					<table border="0" cellspacing="0" cellpadding="">
+						<tr>
+							<td id="table">所在地区</td>
+							<td>
+								<select name="" id="select">
+									<option value="" >请选择</option>
+									<option value="">中国大陆</option>
+									<option value="">台湾</option>
+									<option value="">澳门</option>
+								</select>
+							</td>
+							<td >	
+								<select value="" id="select1">
+									<option>省</option>
+									<option></option>
+									<option></option>
+								</select>
+							</td>
+							<td width="40px">
+								<select value="" id="select1">
+									<option>市</option>
+									<option></option>
+									<option></option>
+								</select>
+							</td>
+							<td>
+								<select value="" id="select1">
+									<option>区/县</option>
+									<option></option>
+									<option></option>
+								</select>
+							</td>
+						</tr>
+						<tr id="table"><td id="table">详细地址</td>
+							<td colspan="4">
+								<input type="text" id="input" />
+							</td>
+						</tr>
+						<tr id="table"><td id="table">邮政编码</td>
+							<td colspan="4"><input type="text" id="input"/></td></tr>
+						<tr id="table"><td id="table">收货人姓名 </td><td colspan="4"><input type="text" id="input"/></td></tr>
+						<tr id="table"><td id="table">手机号码</td>
+							<td colspan="2">
+								<select name="" id="select">
+									<option value="" >请选择</option>
+									<option value="">中国大陆+86</option>
+									<option value="">香港+852</option>
+									<option value="">澳门+853</option>
+								</select>
+							</td><td colspan="2"><input type="text" id="input" /></td>
+						</tr>
+						<tr id="table"><td id="table">电话号码</td>
+							<td colspan="2">
+								<select name="" id="select">
+									<option value="" >请选择</option>
+									<option value="">中国大陆+86</option>
+									<option value="">香港+852</option>
+									<option value="">澳门+853</option>
+								</select>
+							</td><td colspan="2"><input type="text" id="input"/></td>
+						</tr>
+						<tr id="table"><td id="table"></td><td colspan="4">
+							<input type="checkbox" name="" id="" value="" />
+							设为默认地址</td></tr>
+						<tr id="table"><td id="table"></td><td colspan="4">
+							<input type="button" id="button" value="保存" />
+						</td></tr>
+					</table>
+				</form>
+			</div>
+		
+			<div id="dizhi2">
+				<table  cellspacing="0" cellpadding="">
+					<p style="color: #FF6B00;">已保存了4条地址，还能保存10条地址</p>
+					<tr style="height: 50px; background-color: #F2F2F2;"><th>收货人</th><th>所在地区</th><th>详细地址</th><th>邮编</th><th>电话</th><th>手机</th><th>操作</th></tr>
+					<tr id="dizhi2_1"><td>张三</td><td>**</td><td>**</td><td>**</td><td>**</td><td>**</td>
+						<td>
+							<a href="#">修改</a>
+							<a href="#">删除</a>
+						</td>
+						
+					</tr>
+					<tr id="dizhi2_1"><td>李四</td><td>**</td><td>**</td><td>**</td><td>**</td><td>**</td>
+						<td>
+							<a href="#">修改</a>
+							<a href="#">删除</a>
+						</td>
+						
+					</tr>
+					<tr id="dizhi2_1"><td>王五</td><td>**</td><td>**</td><td>**</td><td>**</td><td>**</td>
+						<td>
+							<a href="#">修改</a>
+							<a href="#">删除</a>
+						</td>
+						
+					</tr>
+					<tr id="dizhi2_1"><td>赵六</td><td>**</td><td>**</td><td>**</td><td>**</td><td>**</td>
+						<td>
+							<a href="#">修改</a>
+							<a href="#">删除</a>
+						</td>
+						
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

@@ -9,15 +9,16 @@ import com.neuedu.entity.UserOrder;
 public interface OrderService {
 
 	/**
-	 * ÓÃ»§ÏÂµ¥
+	 * ï¿½Ã»ï¿½ï¿½Âµï¿½
 	 * */
+	boolean  createOrder();
 	boolean  createOrder(UserOrder userOrder);
 	 List<UserOrder> findAllorder();
 	/**
 	 * 
-	 * Éú³É¶©µ¥±àºÅorder_no
+	 * ï¿½ï¿½ï¿½É¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½order_no
 	 * */
   long  generateOrderNo();
-  /**·ÖÒ³»ñÈ¡*/
+  /**ï¿½ï¿½Ò³ï¿½ï¿½È¡*/
   public PageModel<UserOrder> findOrderByPage(int pageNo, int pageSize);
 }

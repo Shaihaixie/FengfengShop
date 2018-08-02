@@ -78,12 +78,18 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
 			}
 			PageModel<Cart> pageModel=cartService.findCartByPage(_pageNo, _pageSize);
 			req.setAttribute("pageModel", pageModel);
-			req.getRequestDispatcher("cart.jsp").forward(req, resp);
+//			req.getRequestDispatcher("cart.jsp").forward(req, resp);
 			//´«Ò³Ãæ
-			 PrintWriter pw=resp.getWriter();
-		     String info=JSONArray.toJSONString(pageModel);
-		     resp.getWriter().print(info);
-     	     System.out.println(info);
+  		      PrintWriter pw=resp.getWriter();
+     String     callback=     req.getParameter("callback");
+  		       Gson gson=new Gson();
+  		        String json=gson.toJson(pageModel);
+            pw.write(callback+"("+json+")");
+	        System.out.println(json);
+//	            String     callback=     req.getParameter("callback");
+//		     String info=JSONArray.toJSONString(pageModel);
+		    //   resp.getWriter().print(info);
+     	    // System.out.println(info);
 //     		  pw.write("data("+info+")");
 //			PrintWriter pw=resp.getWriter();
 //			Gson  gson=new Gson();
@@ -175,7 +181,7 @@ public  void addCart(HttpServletRequest req,HttpServletResponse resp) throws Ser
 		  productnum=Integer.parseInt(req.getParameter("productnum"));
 		  ProductController  productController=new ProductController();
 		   Product  product= productController.findProductById(productid);
-		    cart.setProductid(productid);
+		   cart.setProductid(productid);
 		  cart.setProduct(product);
 		  cart.setProductNum(productnum);
 		  result= addCart(cart);

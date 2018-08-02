@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#a1{
+	width: 1226px;
+	height: 1039px;
+	background-color: white;
+	margin: auto;
+	margin-top: 20px;
+}
+#a1 span{
+	display: block;
+	font-size: 20px;
+	color: #333333;
+}
+.a1_input{
+	width: 350px;
+	height: 40px;
+}
+.info{
+	width: 730px;
+	height: 40px;
+}
+#a2{
+	width: 1100px;
+	height: 80px;
+	position: relative;
+}
+#a2 div{
+	width: 200px;
+	height: 45px;
+	position: absolute;
+	margin-left:850px ;
+}
+#a2 div input{
+	width: 200px;
+	height: 45px;
+	background-color: #FF6700;
+}
+
+.q1{
+	width: 185px; height: 50px
+}
+.q1:active{
+	background-color: #FF6700;
+}

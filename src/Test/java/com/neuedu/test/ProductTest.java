@@ -34,7 +34,7 @@ public class ProductTest {
     @Test
     public    void   testdeleteproductByid(){
         ProductDao  ProductDao=new ProductMybaits();
-        System.out.println(  ProductDao.deleteProduct(91));
+        System.out.println(  ProductDao.deleteProduct(95));
 
     }
     @Test
@@ -49,7 +49,7 @@ public class ProductTest {
     @Test
     public    void   testFindProductByid(){
         ProductDao  ProductDao=new ProductMybaits();
-        System.out.println(ProductDao.findById(82));
+        System.out.println(ProductDao.findById(96).getId());
     }
     @Test
     public    void   testFindBycategory_id(){
@@ -66,8 +66,8 @@ public class ProductTest {
         ProductDao  ProductDao=new ProductMybaits();
 //        Product  product=ProductDao.findById(82);
         Product  product=new Product();
-        product.setId(82);
-         product.setStock(898);
+        product.setId(96);
+         product.setStock(10);
         System.out.println(ProductDao.updateStock(product));
     }
 

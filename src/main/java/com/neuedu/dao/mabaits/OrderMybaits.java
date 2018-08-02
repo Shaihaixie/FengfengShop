@@ -25,19 +25,16 @@ public class OrderMybaits implements OrderDao {
         pageModel.setData(UserOrders);
         return pageModel;
     }
-
     @Override
     public boolean createOrder(UserOrder userOrder) {
         SqlSession session  = MyBatisFactory.getSqlSession();
          session.insert("com.neuedu.entity.UserOrder.createOrder",userOrder);
         return true;
     }
-
     @Override
     public int generateOrderId() {
         return 0;
     }
-
     @Override
     public List<UserOrder> findAllorder() {
         SqlSession session  = MyBatisFactory.getSqlSession();

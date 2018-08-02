@@ -64,20 +64,22 @@ public class ProductMybaits  implements ProductDao{
     public PageModel<Product> findProductByPage(int pageNo, int pageSize) {
 //step1:查询总记录数，计算总共页数
         SqlSession session  = MyBatisFactory.getSqlSession();
-            int    totalcount= (Integer) session.selectOne("com.neuedu.entity.Product.findTotalCount");
+        int    totalcount= (Integer) session.selectOne("com.neuedu.entity.Product.findTotalCount");
         //step2：查询某页数据
         Map<String,Object> map=new HashMap<String, Object>();
         map.put("offest",(pageNo-1)*pageSize);
         map.put("pageSize",pageSize);
-          List<Product> Products= session.selectList("com.neuedu.entity.Product.findProductPage",map);
-              PageModel<Product> pageModel=new PageModel<Product>();
-             pageModel.setTotalPage(((totalcount%pageSize)==0?totalcount/pageSize:(totalcount/pageSize)+1));
-             pageModel.setData(Products);
+        List<Product> Products= session.selectList("com.neuedu.entity.Product.findProductPage",map);
+        PageModel<Product> pageModel=new PageModel<Product>();
+        pageModel.setTotalPage(((totalcount%pageSize)==0?totalcount/pageSize:(totalcount/pageSize)+1));
+        pageModel.setData(Products);
         return pageModel;
     }
 //修改库存
     @Override
     public boolean updateStock(Product product) {
+//        SqlSession session  = MyBatisFactory.getSqlSession();
+//        session.update("com.neuedu.entity.Product.updateStock",product);
         SqlSession session  = MyBatisFactory.getSqlSession();
         session.update("com.neuedu.entity.Product.updateStock",product);
         return true;

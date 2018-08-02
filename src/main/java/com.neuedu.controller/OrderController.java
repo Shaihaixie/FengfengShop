@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.alibaba.fastjson.JSONArray;
 import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
@@ -62,7 +63,10 @@ public class OrderController extends HttpServlet {
 				}
 			PageModel<UserOrder> pageModel=orderService.findOrderByPage(_pageNo, _pageSize);
 				req.setAttribute("pageModel", pageModel);
-				req.getRequestDispatcher("Order.jsp").forward(req, resp);
+		 String  info= JSONArray.toJSONString(pageModel);
+		 resp.getWriter().print(info);
+		 req.setAttribute("pageModel", pageModel);
+		// req.getRequestDispatcher("Order.jsp").forward(req, resp);
 				
 		    }
 
@@ -88,6 +92,7 @@ public class OrderController extends HttpServlet {
 			     System.out.println(lastnum);
 			      product.setStock(lastnum);
 			     productController.updateProduct(product);
+			     order.setOrder_no(System.currentTimeMillis());
 			   order.setShipping_id(productid);;
 			   order.setProduct(product);
 			   order.setPayment(total);

@@ -30,6 +30,7 @@
     <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.7" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: taglibs:standard:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.47" level="project" />
@@ -38,7 +39,6 @@
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.3" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.43" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: eclipse:eclipse-runtime:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: javax.el:javax.el-api:2.2.1" level="project" />
   </component>

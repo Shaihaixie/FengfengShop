@@ -4,6 +4,8 @@ import com.neuedu.dao.OrderDao;
 import com.neuedu.dao.mabaits.OrderMybaits;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.UserOrder;
+import com.neuedu.service.OrderService;
+import com.neuedu.service.impl.OrderServiceImpl;
 import org.junit.Test;
 
 import java.util.List;
@@ -29,13 +31,7 @@ public class OrderTest {
      }
  @Test
     public  void  testCreatOrder(){
-     OrderDao  OrderDao=new OrderMybaits();
-     UserOrder UserOrder=new UserOrder();
-    // order_no,user_id,shipping_id,payment,payment_type,postage,status
-             UserOrder.setOrder_no(90);
-             UserOrder.setUser_id(10);
-           UserOrder.setPayment(1000);
-      OrderDao.createOrder(UserOrder);
+     OrderService A=new OrderServiceImpl();
+//        A.createOrder();
  }
-
 }

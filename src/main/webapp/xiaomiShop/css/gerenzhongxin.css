@@ -1,0 +1,34 @@
+#c{
+	width: 100%;
+	height: 650px;
+	background-color: #F5F5F5;
+	position: relative;
+}
+#c_left{
+	width: 237px;
+	height: 600px;
+	background-color: white;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#c_left ul{
+	list-style: none;
+}
+#c_left ul li{
+	padding: 20px;
+}
+#c_left ul li a{
+	color: #757575;
+}
+#c_left ul li a:hover{
+	color: #FF6B00;
+}
+#c_right{
+	width: 1000px;
+	height: 600px;
+	background-color: white;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 300px;
+}

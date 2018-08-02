@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	background-color: white;
+}
+#top{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+#top div{
+	width: 243px;
+	height: 81px;
+	margin-left: 50px;
+	margin-top: 0px;
+}
+#form{
+	width: 411px;
+	height: 500px;
+	margin: auto;
+	margin-top: 10px;
+	background-color: white;
+}
+#form table{
+	width: 411px;
+	height: 500px;
+	text-align: center;
+}
+#login{
+	font-size: 20px;
+	text-align: center;
+	color: #F56600;
+}
+#text{
+	width: 335px;
+	height: 40px;
+}
+.submit{
+	width: 343px;
+	height: 40px;
+	color: white;
+	background-color: #F56600;
+}
+.a1{
+	text-decoration: none;
+	color: #EF5B00;
+}
+#a2{
+	text-decoration: none;
+	color: #999999;
+}
+#a2:hover{
+	color: #EF5B00;
+}
+

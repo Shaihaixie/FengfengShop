@@ -1,0 +1,55 @@
+body{
+	background-color: #F9F9F9;
+}
+#center{
+	height:600px;
+	width:862px;
+	background-color: white;
+	margin: auto;
+}
+#center table{
+	margin: auto;
+}
+#center1{
+	height: 50px;
+	text-align: center;
+}
+#center2{
+	height: 90px;
+	font-size: 30px;
+	text-align: center;
+}
+#center3{
+	height: 20px;
+}
+#center4{
+	height: 20px;
+}
+#center5{
+	height: 10px;
+	font-size: 10px;
+	color: #666666;
+}
+#select{
+	width: 297px;
+	height: 40px;
+}
+#center7{
+	width: 60px;
+	height: 40px;
+}
+#center7 select{
+	width: 60px;
+	height: 40px;
+}
+#center8 input{
+	width: 230px;
+	height: 34px;
+}
+#input{
+	color: white;
+	width: 298px;
+	height: 50px;
+	background-color: #FF6700;
+}
+

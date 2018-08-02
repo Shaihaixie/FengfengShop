@@ -5,12 +5,14 @@ import java.util.List;
 import com.neuedu.dao.CategoryDao;
 import com.neuedu.dao.ProductDao;
 import com.neuedu.dao.impl.jdbc.CategoryDaoImpl;
+import com.neuedu.dao.mabaits.CategoryMybaits;
 import com.neuedu.entity.Category;
 import com.neuedu.entity.PageModel;
 import com.neuedu.service.CategoryService;
 
 public class CategoryServiceImpl implements CategoryService {
-	CategoryDao categoryDao=new CategoryDaoImpl();
+//	CategoryDao categoryDao=new CategoryDaoImpl();
+CategoryDao categoryDao=new CategoryMybaits();
 	@Override
 	public boolean addCategory(Category category) {
 		// TODO Auto-generated method stub

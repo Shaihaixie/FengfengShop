@@ -19,7 +19,7 @@ import com.neuedu.service.impl.LoginServiceImpl;
 /**
  * Servlet Filter implementation class CheckLogin
  */
-@WebFilter("/view/*")///view/*
+@WebFilter("/rdgdgg*")///view/*
 public class CheckLogin implements Filter {
 
     /**

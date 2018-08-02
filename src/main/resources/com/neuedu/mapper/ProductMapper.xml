@@ -43,9 +43,19 @@ select id,name,pdesc,price,rule ,image,stock from  product where category_id=#{c
     <update id="updateStock"  parameterType="com.neuedu.entity.Product">
  update product set stock=#{stock} where id=#{id}
     </update>
-
-
-
+<!--修改商品库存-->
+    <!--<update id="updateProduct" parameterType="com.neuedu.entity.Product">-->
+        <!--update product-->
+        <!--<set>-->
+            <!--&lt;!&ndash;<if test="name!=null">name=#{name}</if>&ndash;&gt;-->
+            <!--&lt;!&ndash;<if test="desc!=null">pdesc=#{pdesc}</if>&ndash;&gt;-->
+            <!--&lt;!&ndash;<if test="price &gt; 0">price=#{price}</if>&ndash;&gt;-->
+            <!--&lt;!&ndash;<if test="rule!=null">rule=#{rule}</if>&ndash;&gt;-->
+            <!--&lt;!&ndash;<if test="image!=null">image=#{image}</if>&ndash;&gt;-->
+            <!--<if test="stock &gt; 0">stock=#{stock}</if>-->
+        <!--</set>-->
+        <!--where id=#{id}-->
+    <!--</update>-->
 
     <!--解决数据库字段和实体类不同的情况-->
 

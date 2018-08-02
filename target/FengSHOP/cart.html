@@ -28,6 +28,7 @@
 
   
   <div id="container">
+
     </div>
     
 
@@ -35,21 +36,42 @@
 </body>
 </html>
 
-<script  src="js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
 <script>
     $(function(){
         $.ajax({
-            type :'post',
-            url : 'http://localhost:8080/FengSHOP/front/login.do?pageNo=1&pageSize=5',
+            type : 'post',
+            url : 'http://localhost:8080/FengSHOP/view/Cart?operation=6&pageNo=1&pageSize=5' ,
             dataType : 'json' ,
             success : function(data) {
-                $.each(data,function(i,e){
-                 var item=$("<div>"+e.id+":"+e.product.desc+"</div>")
-                 $("#container").append(item);
-                       })
-            }
+                // console.log(data)
+                // console.log(data.data.desc)
+                var item1 = $("<div>  名字  单价   数量   小计</div>")
+                $("#container").append(item1);
+                $.each(data.data , function(i,e){
+                    var item = $("<div>"+e.product.name+e.product.price+e.productNum+e.total+"</div>")
+                    var  add=$("<span>加购</span>")
+                    item.addClass('size');
+                    $("#container").append(item);
+                    $("#container").append(add);
+                    add.click(function () {
+                        item.remove();
+                        $(this).remove();
+                        $.ajax({
+                            url:'http://localhost:8080/FengSHOP/view/Order?operation=1&id='+e.id+"&total="+e.total+"&num="+e.productNum,
+                            type:'get',
+                            success:function(){
+                                alert("下单成功！")
+                            }
 
+
+                        })
+
+                    })
+                })
+            }
         })
+
     })
 
 </script>

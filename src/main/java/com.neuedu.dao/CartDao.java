@@ -39,13 +39,13 @@ public interface CartDao {
 	/*
 	 * 修改购物车
 	 * */
-	boolean  updateCart(int id, int num);
+    	boolean  updateCart(int id, int num);
 
 
 	/*
 	 * 删除购物车
 	 * */
-	void  clearCart() ;
+	   void   clearCart() ;
 	/*
 	 * 分页查购物车
 	 * */

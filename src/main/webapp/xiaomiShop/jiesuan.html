@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/jiesuan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css"/>
+	</head>
+	<body>
+		<div id="top">
+				<div id="top_logo">
+					<img src="img/logo.png" style="margin-top: 20px;"/>
+				</div>
+				<div id="top_center">
+					<span style="font-size: 30px;">
+						确认订单
+					</span>
+				</div>
+				<div id="top_center_1">
+					<span>温馨提示：请注意查看自己个人信息</span>
+				</div>
+				<div id="top_right">
+					<ul style="list-style: none;">
+						<li><a href="gerenzhongxin.html">个人中心</a></li>
+						<li><a href="login.html">退出登录</a></li>
+					</ul>
+				</div>
+		</div>
+		
+		<div id="a1">
+			<form>
+				<table border="0" cellspacing="0" cellpadding="0" height="400px" width="1100px">
+					<tr><td colspan="3" height="50px"><span>收货地址</span><hr/></td></tr>
+					<tr height="80px">
+						<td>
+							<span>收货人</span>
+							<input class="a1_input" type="text" />
+						</td>
+						<td>
+							<span>姓名</span>
+							<input class="a1_input" type="text" />
+						</td>
+						<td>
+							<span>手机号码</span>
+							<input class="a1_input" type="text" />
+						</td>
+					</tr>
+					<tr height="80px">
+						<td>
+							<span>省</span>
+							<select class="a1_input">
+								<option></option><option></option><option></option><option></option>
+							</select>
+						</td>
+						<td>
+							<span>市</span>
+							<select class="a1_input">
+								<option></option><option></option><option></option><option></option>
+							</select>
+						</td>
+						<td>
+							<span>区/县</span>
+							<select class="a1_input">
+								<option></option><option></option><option></option><option></option>
+							</select>
+						</td>
+					</tr>
+					<tr height="80px"><td colspan="3"><input class="info" type="text" placeholder="请输入详细地址"/></td></tr>
+					<tr height="80px">
+						<td><span>支付方式</span><hr/></td>
+						<td colspan="2">
+							<p style="color: #FF6B00;font-size: 20px;">在线支付 （支持微信支付、支付宝、银联、财付通、小米钱包等）</p><hr/></td>
+								
+							
+					</tr>
+				</table>
+			</form>
+			<table border="0" cellspacing="0" cellpadding="0" height="70px" width="1100px">
+				<tr>
+					<td><span>配送方式</span><hr/></td>
+					<td><p style="color: #FF6B00;font-size: 20px;">快递配送（免运费）</p><hr/></td>
+				</tr>
+			</table>
+			
+			<table border="0" cellspacing="0" cellpadding="0" height="80px" width="1100px">
+				<tr><td><span>配送时间</span></td>
+					<td width="260pxpx">
+						<input type="button" class="q1" value="不限配送时间：周一至周日" />
+					</td>
+					<td width="260pxpx">
+						<input type="button" class="q1" value="工作日送货：周一至周五" />
+					</td>
+					<td width="260pxpx">
+						<input type="button" class="q1"  value="双休节、假日送货：周六至周日" />	
+					</td>
+				</tr>
+				<tr><td colspan="4"><hr/></td></tr>
+			</table>
+			
+			<table border="0" cellspacing="0" cellpadding="0" height="80px" width="1100px">
+				<tr><td><span>商品</span></td></tr>
+				<tr><td><hr/></td></tr>
+			</table>
+			<table border="0" cellspacing="0" cellpadding="0" height="180px" width="1100px">
+				<tr id="sss">
+
+				</tr>
+				<tr><td colspan="4"><hr /></td></tr>
+			</table>
+			
+			<div id="a2">
+				<div>
+					<form action="">
+						
+						<a href="zhifu.html"><input type="button" value="提交订单"/></a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../assets/js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            type : 'post',
+            url : 'http://localhost:8080/FengSHOP/view/Order?operation=3&pageNo=1&pageSize=1' ,
+            dataType : 'json' ,
+            success : function(data) {
+                // console.log(data)
+                // console.log(data.data.desc)
+                $.each(data.data , function(i,e){
+                    var item = $("<td >"+e.create_time+"</td>")
+                   var   item1=$("<td >"+e.order_no+"</td>")
+                    var   item2=$("<td >"+e.payment+"</td>")
+                    item.addClass('size');
+                    $("#sss").append(item);
+                    $("#sss").append(item1);
+                    $("#sss").append(item2);
+                    add.click(function () {
+                        item.remove();
+                        $(this).remove();
+                        $.ajax({
+                            success:function(){
+                                alert("下单成功！")
+                                // window.location.href="跳转的url,后边也可以拼接点data中数据作为参数";
+                                window.location.href="zhifu.html";
+                            }
+
+
+                        })
+
+                    })
+                })
+            }
+        })
+
+    })
+
+</script>

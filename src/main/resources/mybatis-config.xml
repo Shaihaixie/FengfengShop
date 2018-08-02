@@ -29,5 +29,6 @@
 <mapper       resource="com/neuedu/mapper/CartMapper.xml"/>
 <mapper       resource="com/neuedu/mapper/OrderMapper.xml"/>
       <mapper       resource="com/neuedu/mapper/CategoryMapper.xml"/>
+      <mapper       resource="com/neuedu/mapper/OrderitemMapper.xml"/>
   </mappers>
 </configuration>

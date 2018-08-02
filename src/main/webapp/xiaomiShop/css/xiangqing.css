@@ -1,0 +1,34 @@
+#s{
+	width: 100%;
+	height: 560px;
+	background-color: white;
+	position: relative;
+}
+#s_left{
+	width: 420px;
+	height: 560px;
+	position: absolute;
+	margin-left: 150px;
+}
+#s_left #left1{
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+#s_right{
+	width: 650px;
+	height: 560px;
+	position: absolute;
+	margin-left: 600px;
+}
+#button{
+	width: 270px;
+	height: 50px;
+	background-color: #FF6700;
+}
+#img{
+
+}
+#img:hover{
+	border-color: #FF6700;
+}

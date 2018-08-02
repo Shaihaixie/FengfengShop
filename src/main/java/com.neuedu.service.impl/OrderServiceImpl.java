@@ -11,6 +11,10 @@ import com.neuedu.dao.impl.jdbc.CartDaoImpl;
 import com.neuedu.dao.impl.jdbc.OrderDaoImpl;
 import com.neuedu.dao.impl.jdbc.OrderItemDaoImpl;
 import com.neuedu.dao.impl.jdbc.ProductDaoImpl;
+import com.neuedu.dao.mabaits.CartMybaits;
+import com.neuedu.dao.mabaits.OrderItemMybatis;
+import com.neuedu.dao.mabaits.OrderMybaits;
+import com.neuedu.dao.mabaits.ProductMybaits;
 import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
@@ -20,62 +24,60 @@ import com.neuedu.service.OrderService;
 import com.neuedu.utils.Utils;
 
 public class OrderServiceImpl implements OrderService {
-	ProductDao productDao=new ProductDaoImpl();
-	CartDao cartDao=new CartDaoImpl();
-	OrderDao orderDao=new OrderDaoImpl();
-	OrderItemDao orderItemDao=new OrderItemDaoImpl();
+//OrderDao orderDao=new OrderDaoImpl();
+OrderDao orderDao=new OrderMybaits();
+CartDao CartDao=new CartMybaits();
+OrderItemDao OrderItemDao=new OrderItemMybatis();
+ProductDao ProductDao=new ProductMybaits();
 	@Override
-	public boolean createOrder(UserOrder userOrder) {	
+	public boolean createOrder(UserOrder userOrder) {
+		return false;
+	}
+	@Override
+	public boolean createOrder() {
 		// TODO Auto-generated method stub
-		
-		//step1:获取购物车中的购物信息  List<Cart>
-//		List<Cart> carts= cartDao.findAllCart();
-//		 if(carts==null||carts.size()<=0) {
-//			 return false;
-//		 }
-//		//step2:生成订单实体类 UserOrder
-//		   UserOrder   userOrder=createUserOrder();
-//		   
-//		//step3:将购物信息集合转成订单明细集合List<UserOrderItem>
-//		  List<UserOrder> orderItems=new ArrayList<UserOrderItem>();
-// 		   for(int i=0;i<carts.size();i++) {
-// 			   Cart cart=carts.get(i);
-// 			   UserOrderItem orderItem= Utils.convertToOrderItem(orderItemDao.generateOrderItemId(), userOrder.getOrder_no(), cart);
-// 			   
-// 			  //step4:检验库存
-// 			   if(orderItem.getQuantity()<=cart.getProduct().getStock()) {
-// 				   //库存充足
-// 				  orderItems.add(orderItem);
-// 			   }else {//库存不足
-// 				  return false;  
-// 			   }
-// 			   
-// 			   
-// 		   }
-//		 //step5:计算订单价格
-// 		   userOrder.setPayment(getOrderPrice(orderItems));
-//		//step5:下单
-// 		   orderDao.createOrder(userOrder);
-// 		   orderItemDao.addOrderItems(orderItems);
-// 		
-//		//step6:扣库存
-//		
-// 		   for(int  i=0;i<carts.size();i++) {
-// 			   Cart cart=carts.get(i);
-// 			   Product product=cart.getProduct();
-// 			   int leftStock=product.getStock()-cart.getProductNum();
-// 			   product.setStock(leftStock);
-// 			   productDao.deleteStock(product);
-// 		   }
-// 		   
-//		//step7:清空购物车
-//		
-//		cartDao.clearCart();
-//		
-//		
+//		step1:获取购物车中的购物信息  List<Cart>
+		List<Cart> carts= CartDao.findAllCart();
+		 if(carts==null||carts.size()<=0) {
+			 return false;
+		 }
+		//step2:生成订单实体类 UserOrder
+		   UserOrder   UserOrder=createUserOrder();
+		//step3:将购物信息集合转成订单明细集合List<UserOrderItem>
+		  List<UserOrderItem> orderItems=new ArrayList<UserOrderItem>();
+ 		   for(int i=0;i<carts.size();i++) {
+ 			   Cart cart=carts.get(i);
+ 			   UserOrderItem orderItem= Utils.convertToOrderItem(OrderItemDao.generateOrderItemId(), UserOrder.getOrder_no(), cart);
+ 			  //step4:检验库存
+ 			   if(orderItem.getQuantity()<=cart.getProduct().getStock()) {
+ 				   //库存充足
+ 				  orderItems.add(orderItem);
+ 			   }else {//库存不足
+ 				  return false;
+ 			   }
+ 		   }
+		 //step5:计算订单价格
+		UserOrder.setPayment(getOrderPrice(orderItems));
+		//step5:下单
+ 		   orderDao.createOrder(UserOrder);
+		OrderItemDao.addOrderItems(orderItems);
+		//step6:扣库存
+ 		   for(int  i=0;i<carts.size();i++) {
+ 			   Cart cart=carts.get(i);
+ 			   Product product=cart.getProduct();
+ 			   int leftStock=product.getStock()-cart.getProductNum();
+ 			//修改库存
+			   product.setStock(leftStock);
+			   ProductDao.updateProduct(product);
+ 		   }
+		//step7:清空购物车
+
+		CartDao.clearCart();
+
+
 		
 		
-	return orderDao.createOrder(userOrder);
+	return orderDao.createOrder(UserOrder);
 	}
 	
 	

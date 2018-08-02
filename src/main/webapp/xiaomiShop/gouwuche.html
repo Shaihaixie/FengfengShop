@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/gouwuche.css"/>
+	</head>
+	<body>
+		<div id="zhuce">
+			<div id="top">
+				<div id="top_logo">
+					<img src="img/logo.png" style="margin-top: 20px;"/>
+				</div>
+				<div id="top_center">
+					<span style="font-size: 30px;">
+						我的购物车
+					</span>
+				</div>
+				<div id="top_center_1">
+					<span>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+				</div>
+				<div id="top_right">
+					<ul style="list-style: none;">
+						<li><a href="gerenzhongxin.html">个人中心</a></li>
+						<li><a href="login.html">退出登录</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="bottom">
+                    <div>
+
+					<table   id="aa" border="0" cellspacing="0" cellpadding="0" height="180px" width="100%">
+						<tr  style="background-color: white"><td>	<input type="checkbox"/>	全选</td>
+							<td>商品名称</td>
+							<td style="text-align: center">单价</td>
+							<td>数量</td>
+							<td>小计</td>
+							<td>操作</td>
+						</tr>
+					</table>
+					</div>
+
+				</div>
+			</div>
+				
+
+			</div>
+		</div>
+	</body>
+</html>
+<script src="../assets/js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            type : 'post',
+            url : 'http://localhost:8080/FengSHOP/view/Cart?operation=6&pageNo=1&pageSize=5' ,
+            dataType : 'json' ,
+            success : function(data) {
+                // console.log(data)
+                // console.log(data.data.desc)
+                $.each(data.data , function(i,e){
+                    var  tr=$("<tr style='background-color: #4BD28C'>")
+                    var  tr1=$("</tr>")
+                    var item0=$("<td style='padding-left: 100px'>" +" <input  type='checkbox'>"+"</td>")
+                    var item=$("<td>" +e.product.name+"</td>")
+                    var item1=$("<td style='padding-left: 100px'>" +e.product.price+"</td>")
+                    var item2=$("<td style='padding-left: 20px'>" +e.productNum+"</td>")
+                    var item3=$("<td style='padding-left: 30px'>" +e.total+"</td>")
+					var  add=$("<tdstyle='padding-left: 20px'>加购</td>");
+                    item.addClass('size');
+                    $("#aa").append(tr);
+                    $(tr).append(item0);
+                    $(tr).append(item);
+                    $(tr).append(item1);
+                    $(tr).append(item2);
+                    $(tr).append(item3);
+                    $(tr).append(add);
+                    $("#aa").append(tr1);
+                    add.click(function () {
+                        tr.remove();
+                        $(this).remove();
+                        $.ajax({
+                            url:'http://localhost:8080/FengSHOP/view/Order?operation=1&id='+e.id+"&total="+e.total+"&num="+e.productNum,
+                            type:'get',
+                            success:function(){
+                                alert("下单成功！")
+                               // window.location.href="跳转的url,后边也可以拼接点data中数据作为参数";
+                                window.location.href="jiesuan.html";
+                            }
+
+
+                        })
+
+                    })
+                })
+            }
+        })
+
+    })
+
+</script>

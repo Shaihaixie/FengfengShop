@@ -1,6 +1,7 @@
 package com.neuedu.controller;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -10,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.alibaba.fastjson.JSONArray;
+import com.google.gson.Gson;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 import com.neuedu.service.ProductService;
@@ -21,9 +23,9 @@ public class ProductController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		resp.setHeader("Access-Control-Allow-Origin", "*");
 		resp.setContentType("text/html;charset=utf-8");
 		req.setCharacterEncoding("utf-8");
-		resp.setHeader("Access-Control-Allow-Origin", "*");
 		String operation = req.getParameter("operation");
 		if (operation != null && !operation.equals("")) {
 			if (operation.equals("1")) {
@@ -127,7 +129,7 @@ public class ProductController extends HttpServlet {
 		String  info= JSONArray.toJSONString(pageModel);
 		 resp.getWriter().print(info);
 		 req.setAttribute("pageModel", pageModel);
-        req.getRequestDispatcher("ShopList.jsp").forward(req, resp);
+//        req.getRequestDispatcher("ShopList.jsp").forward(req, resp);
 	}
 
 	/** 淇敼鍟嗗搧 */
@@ -193,7 +195,13 @@ public class ProductController extends HttpServlet {
 			Product products = pService.findProductById(id);
 			if (products != null) {
 				req.setAttribute("products", products);
-				req.getRequestDispatcher("UpShopList.jsp").forward(req, resp);
+				PrintWriter pw=resp.getWriter();
+				String     callback=     req.getParameter("callback");
+				Gson gson=new Gson();
+				String json=gson.toJson(products);
+				pw.write(callback+"("+json+")");
+				System.out.println(json);
+				//req.getRequestDispatcher("UpShopList.jsp").forward(req, resp);
 			}
 
 		} catch (Exception e) {
