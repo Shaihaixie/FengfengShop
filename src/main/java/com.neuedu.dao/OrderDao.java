@@ -26,5 +26,8 @@ public interface OrderDao {
     * �������ж���
     * */
     List<UserOrder> findAllorder();
+
+    //编号查询订单
+  UserOrder  findOrderByOrderno(long orderno);
 	
 }

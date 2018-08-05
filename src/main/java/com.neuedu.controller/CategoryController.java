@@ -13,10 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 import com.neuedu.entity.Category;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
+import com.neuedu.service.CartService;
 import com.neuedu.service.CategoryService;
 import com.neuedu.service.ProductService;
 import com.neuedu.service.impl.CategoryServiceImpl;
 import com.neuedu.service.impl.ProductServiceImpl;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 /**
  * Servlet implementation class CategoryController
@@ -24,7 +27,7 @@ import com.neuedu.service.impl.ProductServiceImpl;
 @WebServlet("/view/Category")
 public class CategoryController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	CategoryService cService=new CategoryServiceImpl();
+	CategoryService cService;
 	ProductService pService=new ProductServiceImpl();
     /**
      * @see HttpServlet#HttpServlet()
@@ -33,7 +36,15 @@ public class CategoryController extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+	@Override
+	public  void  init()  throws  ServletException{
 
+//获取ioc容器
+		WebApplicationContext mWebApplicationContext
+				= WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+		cService= (CategoryService) mWebApplicationContext.getBean("cService");
+
+	}
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */

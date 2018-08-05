@@ -58,14 +58,17 @@ public class Cart  implements Serializable{
 	public void setProductid(int productid) {
 		this.productid = productid;
 	}
+
 	@Override
 	public String toString() {
-		return "Cart [id=" + id + ", product=" + product + ", productNum=" + productNum + "]";
+		return "Cart{" +
+				"id=" + id +
+				", productid=" + productid +
+				", product=" + product +
+				", total=" + total +
+				", productNum=" + productNum +
+				'}';
 	}
-	
-	
-	
-	
-	
-	
+
+
 }

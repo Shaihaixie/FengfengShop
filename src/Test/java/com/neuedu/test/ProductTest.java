@@ -49,7 +49,7 @@ public class ProductTest {
     @Test
     public    void   testFindProductByid(){
         ProductDao  ProductDao=new ProductMybaits();
-        System.out.println(ProductDao.findById(96).getId());
+        System.out.println(ProductDao.findById(96));
     }
     @Test
     public    void   testFindBycategory_id(){

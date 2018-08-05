@@ -12,7 +12,12 @@ import com.neuedu.service.CartService;
 public class CartServiceImpl implements CartService {
 
 //	CartDao cartDao=new CartDaoImpl();
-	CartDao cartDao=new CartMybaits();
+	CartDao cartDao;
+
+	public void setCartDao(CartDao cartDao) {
+		this.cartDao = cartDao;
+	}
+
 	@Override
 	public boolean addCart(Cart cart) {
 		// TODO Auto-generated method stub

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--id name-->
+  <bean id="cartService" class="com.neuedu.service.impl.CartServiceImpl">
+   <property name="cartDao" ref="cartDao"></property>
+  </bean>
+<bean id="cartDao" class="com.neuedu.dao.mabaits.CartMybaits"></bean>
+<!--类别-->
+    <bean id="cService" class="com.neuedu.service.impl.CategoryServiceImpl">
+        <property name="categoryDao" ref="categoryDao"></property>
+    </bean>
+    <bean id="categoryDao" class="com.neuedu.dao.mabaits.CategoryMybaits"></bean>
+
+
+
+</beans>

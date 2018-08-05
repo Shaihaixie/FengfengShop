@@ -41,4 +41,11 @@ public class OrderMybaits implements OrderDao {
          List<UserOrder>   userOrder=   session.selectList("com.neuedu.entity.UserOrder.findAllorder");
         return userOrder;
     }
+
+    @Override
+    public UserOrder findOrderByOrderno(long orderno) {
+        SqlSession session  = MyBatisFactory.getSqlSession();
+    UserOrder UserOrder=   session.selectOne("com.neuedu.entity.UserOrder.findOrderByOrderno",orderno);
+     return UserOrder;
+    }
 }

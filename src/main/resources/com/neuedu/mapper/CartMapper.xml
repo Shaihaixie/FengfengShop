@@ -9,7 +9,8 @@
     </insert>
     <!--遍历购物车-->
 <select id="findAllCart"  resultMap="ProductCartResultMap">
-SELECT product.*,cart.id,cart.productnum FROM product,cart  WHERE product.id= cart.productid
+/*SELECT product.*,cart.id ,cart.productnum FROM product,cart  WHERE product.id= cart.productid*/
+SELECT p.name,p.pdesc,p.price,p.rule,p.image,p.stock,p.category_id,c.id,c.productid ,c.productnum FROM product p,cart c WHERE p.id= c.productid
 </select>
     <!--id遍历购物车-->
     <select id="findAllCartBYid"  resultMap="ProductCartResultMap" parameterType="map">
@@ -28,7 +29,7 @@ SELECT product.*,cart.id,cart.productnum FROM product,cart  WHERE product.id= ca
         select count(id) from cart
     </select>
     <select id="findCartPage" parameterType="map" resultMap="ProductCartResultMap">
-       SELECT product.*,cart.id,cart.productnum FROM product,cart  WHERE product.id= cart.productid limit #{offest},#{pageSize}
+     SELECT p.name,p.pdesc,p.price,p.rule,p.image,p.stock,p.category_id,c.id,c.productid ,c.productnum FROM product p,cart c WHERE p.id= c.productid limit #{offest},#{pageSize}
     </select>
 <select id="findcartByproductid"  resultType="com.neuedu.entity.Cart" parameterType="int">
 select id,productid,productnum from  cart where productid=#{productid}

@@ -28,7 +28,7 @@ insert into product(name,pdesc,price,rule,image,stock) values (#{name},#{desc},#
     update product set name=#{name},price=#{price},image=#{image},rule=#{rule},stock=#{stock},pdesc=#{desc} where id=#{id}
 </update>
     <!--id查商品-->
-<select id="findProductByid" parameterType="int" resultType="com.neuedu.entity.Product">
+<select id="findProductByid" parameterType="int" resultMap="productmap">
     select id,name,pdesc,price,rule ,image,stock from  product where id=#{id}
 </select>
     <!--category_id查商品-->
@@ -41,10 +41,10 @@ select id,name,pdesc,price,rule ,image,stock from  product where category_id=#{c
     </select>
     <!--修改商品-->
     <update id="updateStock"  parameterType="com.neuedu.entity.Product">
- update product set stock=#{stock} where id=#{id}
+        update product set stock=#{stock} where id=#{id}
     </update>
 <!--修改商品库存-->
-    <!--<update id="updateProduct" parameterType="com.neuedu.entity.Product">-->
+    <!--<update id="updateStock" parameterType="com.neuedu.entity.Product">-->
         <!--update product-->
         <!--<set>-->
             <!--&lt;!&ndash;<if test="name!=null">name=#{name}</if>&ndash;&gt;-->

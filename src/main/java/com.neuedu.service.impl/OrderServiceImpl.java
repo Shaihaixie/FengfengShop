@@ -66,17 +66,12 @@ ProductDao ProductDao=new ProductMybaits();
  			   Cart cart=carts.get(i);
  			   Product product=cart.getProduct();
  			   int leftStock=product.getStock()-cart.getProductNum();
- 			//修改库存
+ 			 //修改库存
 			   product.setStock(leftStock);
 			   ProductDao.updateProduct(product);
  		   }
 		//step7:清空购物车
-
 		CartDao.clearCart();
-
-
-		
-		
 	return orderDao.createOrder(UserOrder);
 	}
 	

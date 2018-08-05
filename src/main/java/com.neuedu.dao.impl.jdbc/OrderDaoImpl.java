@@ -127,6 +127,11 @@ public class OrderDaoImpl implements OrderDao {
 	}
 
 	@Override
+	public UserOrder findOrderByOrderno(long orderno) {
+		return null;
+	}
+
+	@Override
 	public PageModel<UserOrder> findUserOrderByPage(int pageNo, int pageSize) {
 		PageModel<UserOrder> userorder=new PageModel<UserOrder>();
 		

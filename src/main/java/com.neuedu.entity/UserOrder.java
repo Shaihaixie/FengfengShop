@@ -1,6 +1,7 @@
 package com.neuedu.entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 import com.sun.jmx.snmp.Timestamp;
 
@@ -28,6 +29,17 @@ public class UserOrder  implements Serializable{
 	private String  create_time;
 	private long update_time;
 	private  Product  product;
+	private  UserOrderItem UserOrderItem;
+	//¶©µ¥¼¯ºÏ
+
+	public List<UserOrderItem> getOrderItemList() {
+		return orderItemList;
+	}
+
+	public void setOrderItemList(List<UserOrderItem> orderItemList) {
+		this.orderItemList = orderItemList;
+	}
+	public List  <UserOrderItem> orderItemList;
 	public UserOrder(int id, long order_no, int user_id, int shipping_id, double payment, int payment_type, int postage,
 			int status, long payment_time, long send_time, long end_time, long close_time, String create_time,
 			long update_time,Product  product) {
@@ -144,16 +156,27 @@ public class UserOrder  implements Serializable{
 	public void setUpdate_time(long update_time) {
 		this.update_time = update_time;
 	}
+
 	@Override
 	public String toString() {
-		return "UserOrder [id=" + id + ", order_no=" + order_no + ", user_id=" + user_id + ", shipping_id="
-				+ shipping_id + ", payment=" + payment + ", payment_type=" + payment_type + ", postage=" + postage
-				+ ", status=" + status + ", payment_time=" + payment_time + ", send_time=" + send_time + ", end_time="
-				+ end_time + ", close_time=" + close_time + ", create_time=" + create_time + ", update_time="
-				+ update_time + "]";
+		return "UserOrder{" +
+				"id=" + id +
+				", order_no=" + order_no +
+				", user_id=" + user_id +
+				", shipping_id=" + shipping_id +
+				", payment=" + payment +
+				", payment_type=" + payment_type +
+				", postage=" + postage +
+				", status=" + status +
+				", payment_time=" + payment_time +
+				", send_time=" + send_time +
+				", end_time=" + end_time +
+				", close_time=" + close_time +
+				", create_time='" + create_time + '\'' +
+				", update_time=" + update_time +
+				", product=" + product +
+				", UserOrderItem=" + UserOrderItem +
+				", orderItemList=" + orderItemList +
+				'}';
 	}
-	
-	
-	
-	
 }

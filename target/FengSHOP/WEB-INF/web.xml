@@ -8,4 +8,21 @@
   </welcome-file-list>
 
   <display-name>Archetype Created Web Application</display-name>
+
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath*:Spring-config.xml
+    </param-value>
+  </context-param>
+
+
+
+  <!--监听器-->
+  <listener>
+    <listener-class>
+      org.springframework.web.context.ContextLoaderListener
+    </listener-class>
+  </listener>
+
+
 </web-app>

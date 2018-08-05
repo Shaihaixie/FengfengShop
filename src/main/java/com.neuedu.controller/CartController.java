@@ -21,17 +21,30 @@ import com.neuedu.service.CartService;
 import com.neuedu.service.ProductService;
 import com.neuedu.service.impl.CartServiceImpl;
 import com.neuedu.service.impl.ProductServiceImpl;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
+
 @WebServlet("/view/Cart")
 public class CartController extends HttpServlet{
   /**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-CartService cartService=new CartServiceImpl();
-ProductService  pService=new ProductServiceImpl();
+CartService cartService;
+ @Override
+		public  void  init()  throws  ServletException{
+
+//获取ioc容器
+	 WebApplicationContext mWebApplicationContext
+			 = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+	 cartService= (CartService) mWebApplicationContext.getBean("cartService");
+
+ }
+	ProductService  pService=new ProductServiceImpl();
 	@Override
 protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 	// TODO Auto-generated method stub
+
 		resp.setContentType("text/html;charset=utf-8");
 		req.setCharacterEncoding("utf-8");
 		resp.setHeader("Access-Control-Allow-Origin", "*");
@@ -78,7 +91,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
 			}
 			PageModel<Cart> pageModel=cartService.findCartByPage(_pageNo, _pageSize);
 			req.setAttribute("pageModel", pageModel);
-//			req.getRequestDispatcher("cart.jsp").forward(req, resp);
+		req.getRequestDispatcher("cart.jsp").forward(req, resp);
 			//传页面
   		      PrintWriter pw=resp.getWriter();
      String     callback=     req.getParameter("callback");
@@ -148,8 +161,8 @@ public void deleteCart(HttpServletRequest request,HttpServletResponse response) 
 	
 	if(flag) {
 		System.out.println("删除成功");
-		findCartByPage(request, response);
-		
+//	   findCartByPage(request, response);
+		response.sendRedirect("http://localhost:52861/xiaomiShop/gouwuche.html?_ijt=ig1j07t0cahg329m1g5bm9gi84");
 	}else {
 		System.out.println("删除失败");
 	}

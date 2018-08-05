@@ -16,4 +16,18 @@
 <insert id="createOrder" parameterType="com.neuedu.entity.UserOrder">
     insert into userorder(order_no,user_id,shipping_id,payment,payment_type,postage,status,create_time) values (#{order_no},#{user_id},#{shipping_id},#{payment},#{payment_type},#{postage},#{status},now())
 </insert>
+<!--一对多-->
+    <resultMap id="orderitems_resultmap" type="com.neuedu.entity.UserOrder" autoMapping="true">
+        <result property="order_no" column="order_no"></result>
+   <collection property="orderItemList" javaType="ArrayList" ofType="com.neuedu.entity.UserOrderItem" column="order_no" autoMapping="true">
+          <result property="order_no" column="order_no"></result>
+       <result property="product_id" column="productid"></result>
+   </collection>
+    </resultMap>
+    <select id="findOrderByOrderno" parameterType="long" resultMap="orderitems_resultmap">
+ select uo.order_no,uo.user_id,uo.shipping_id,uo.payment,uo.payment_type,uo.status, uoi.productid,uoi.product_name,uoi.current_unit_price,uoi.total_price,uoi.quantity from userorder uo
+  left  join userorderitem uoi
+  on  uo.order_no=uoi.order_no
+ WHERE  uo.order_no=#{order_no}
+    </select>
 </mapper>

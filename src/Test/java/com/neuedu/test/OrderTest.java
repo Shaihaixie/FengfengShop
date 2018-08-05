@@ -32,6 +32,18 @@ public class OrderTest {
  @Test
     public  void  testCreatOrder(){
      OrderService A=new OrderServiceImpl();
+
 //        A.createOrder();
  }
+    @Test
+    public  void  testfindOrderByOrderno(){
+        OrderDao OrderDao=new OrderMybaits();
+        UserOrder UserOrder=   OrderDao.findOrderByOrderno(1533035453924L);
+
+             System.out.println(UserOrder);
+
+
+    }
+
+
 }

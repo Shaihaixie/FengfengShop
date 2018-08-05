@@ -15,7 +15,10 @@ import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 import com.neuedu.entity.UserOrder;
 import com.neuedu.service.OrderService;
+import com.neuedu.service.ProductService;
 import com.neuedu.service.impl.OrderServiceImpl;
+import com.neuedu.service.impl.ProductServiceImpl;
+
 @WebServlet("/view/Order")
 public class OrderController extends HttpServlet {
 
@@ -80,23 +83,26 @@ public class OrderController extends HttpServlet {
 		  double total=0;
 		  int productnum=0;
 		  try {
-			  total= Double.parseDouble(req.getParameter("total"));		 
+			  total= Double.parseDouble(req.getParameter("total"));
 			  productid=Integer.parseInt(req.getParameter("id"));
 			  productnum= Integer.parseInt( req.getParameter("num"));
-			  ProductController  productController=new ProductController();
-			  Product  product= productController.findProductById(productid);
+//			  ProductController  productController=new ProductController();
+			  ProductService pService = new ProductServiceImpl();
+			  Product  product= pService.findProductById(productid);
+			  System.out.println(product.getDesc());
+			  System.out.println(product.getName());
 			     int fistnum=product.getStock();
 			     System.out.println(fistnum);
 			      System.out.println(productnum);
 			     int lastnum=fistnum-productnum;
 			     System.out.println(lastnum);
 			      product.setStock(lastnum);
-			     productController.updateProduct(product);
+			  pService.updateProduct(product);
 			     order.setOrder_no(System.currentTimeMillis());
 			   order.setShipping_id(productid);;
 			   order.setProduct(product);
 			   order.setPayment(total);
-			  result= createOrder(order);
+			  result=  orderService.createOrder();
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
@@ -116,7 +122,6 @@ public class OrderController extends HttpServlet {
 	}
 	
 	public  boolean  createOrder(UserOrder userOrder) {
-		
 		return orderService.createOrder(userOrder);
 		
 	}

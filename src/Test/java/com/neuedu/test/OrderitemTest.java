@@ -7,6 +7,6 @@ public class  OrderitemTest {
       @Test
     public  void addOrdritem(){
           OrderService a=new OrderServiceImpl();
-          System.out.println(a.createOrder());
+         /* System.out.println(a.createOrder());*/
       }
 }

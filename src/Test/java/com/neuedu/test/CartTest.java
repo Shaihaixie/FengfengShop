@@ -32,7 +32,7 @@ public class CartTest {
     @Test
     public  void deletecart(){
         CartDao   cartDao=new CartMybaits();
-        cartDao.deleteCart(77);
+        cartDao.deleteCart(89);
     }
     @Test
     public  void updatecart(){

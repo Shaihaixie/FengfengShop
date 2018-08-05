@@ -41,7 +41,12 @@ public class Product implements Serializable{
 		this.id=id;
 		this.name=name;
 	}
-	public Product( String name, String desc, double price, String rule,String  image,int  stock) {
+
+	public Product(int id) {
+		this.id = id;
+	}
+
+	public Product(String name, String desc, double price, String rule, String  image, int  stock) {
 		super();
 		
 		this.name = name;
@@ -135,19 +140,18 @@ public class Product implements Serializable{
 	public void setStock(int stock) {
 		this.stock = stock;
 	}
+
 	@Override
 	public String toString() {
-		return "Product [id=" + id + ", name=" + name + ", desc=" + desc + ", price=" + price + ", rule=" + rule + "]";
+		return "Product{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", desc='" + desc + '\'' +
+				", price=" + price +
+				", rule='" + rule + '\'' +
+				", image='" + image + '\'' +
+				", category_id=" + category_id +
+				", stock=" + stock +
+				'}';
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

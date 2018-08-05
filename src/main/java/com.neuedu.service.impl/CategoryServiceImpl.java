@@ -12,7 +12,12 @@ import com.neuedu.service.CategoryService;
 
 public class CategoryServiceImpl implements CategoryService {
 //	CategoryDao categoryDao=new CategoryDaoImpl();
-CategoryDao categoryDao=new CategoryMybaits();
+CategoryDao categoryDao;
+
+	public void setCategoryDao(CategoryDao categoryDao) {
+		this.categoryDao = categoryDao;
+	}
+
 	@Override
 	public boolean addCategory(Category category) {
 		// TODO Auto-generated method stub
