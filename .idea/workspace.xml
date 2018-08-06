@@ -10,52 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a72fc0-ab8c-4951-9c58-9b7ffa0c54b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FengSHOP_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FengSHOP_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FengSHOP.iml" afterPath="$PROJECT_DIR$/FengSHOP.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderitemTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderitemTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/ProductTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/ProductTest.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CategoryController.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CategoryController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/OrderController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/OrderDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/OrderDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Cart.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Cart.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Product.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.entity/UserOrder.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.entity/UserOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CartServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CategoryServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/OrderServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CartMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CartMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP.war" afterPath="$PROJECT_DIR$/target/FengSHOP.war" />
       <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CartController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CartController.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CategoryController.class" />
       <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/OrderController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/OrderController.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/OrderDao.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/OrderDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/Cart.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/Product.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/Product.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/UserOrder.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/UserOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CartServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CategoryServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CartController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CartController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CategoryController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/OrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/OrderController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/OrderDao.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/OrderDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/entity/Cart.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/entity/Cart.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/entity/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/entity/Product.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/entity/UserOrder.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/entity/UserOrder.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CartServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CategoryServiceImpl.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -147,7 +108,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.neuedu.entity/UserOrder.java" />
         <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" />
         <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderitemTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CartMapper.xml" />
@@ -157,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" />
       </list>
     </option>
   </component>
@@ -192,11 +153,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="64" />
-    <option name="width" value="1168" />
-    <option name="height" value="719" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="413" />
+    <option name="width" value="1072" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,8 +174,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,80 +202,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.neuedu.controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mabaits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.neuedu.entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.neuedu.service.impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,18 +220,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WORK_APP\src\main\resources\com\neuedu\mapper" />
+      <recent name="F:\WORK_APP\src\main\resources\com.neuedu.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tset" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\WORK_APP\src\main\resources" />
       <recent name="F:\WORK_APP\src\main\webapp" />
       <recent name="F:\WORK_APP\src\main\java\com.neuedu.controller" />
       <recent name="F:\WORK_APP\src\main\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tset" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\WORK_APP\src\main\resources\com\neuedu\mapper" />
-      <recent name="F:\WORK_APP\src\main\resources\com.neuedu.mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -764,15 +656,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="JUnit.OrderitemTest.addOrdritem" />
       <item index="1" class="java.lang.String" itemvalue="JUnit." />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.newtomcat" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ProductTest.testFindProductByid" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ProductTest.testUpdateStock" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.CartTest.deletecart" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.CartTest.testallCart" />
+      <item index="4" class="java.lang.String" itemvalue="Application.a" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ProductTest.testFindProductByid" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ProductTest.testUpdateStock" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.CartTest.deletecart" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.CartTest.testallCart" />
     </list>
     <recent_temporary>
       <list size="4">
@@ -827,7 +720,11 @@
       <workItem from="1533180503799" duration="393000" />
       <workItem from="1533291341375" duration="4629000" />
       <workItem from="1533354964741" duration="20261000" />
-      <workItem from="1533436580227" duration="10156000" />
+      <workItem from="1533436580227" duration="10289000" />
+      <workItem from="1533467345631" duration="4010000" />
+      <workItem from="1533514720746" duration="1873000" />
+      <workItem from="1533521069715" duration="683000" />
+      <workItem from="1533559791627" duration="77000" />
     </task>
     <servers />
   </component>
@@ -864,7 +761,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191787000" />
+    <option name="totallyTimeSpent" value="198563000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -876,40 +773,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="413" y="0" width="1072" height="746" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952381" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32454696" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32289952" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952381" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32454696" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6276771" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.564296E-4" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3196046" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5354201" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22087745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4729064" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21541502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20967741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32289952" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.564296E-4" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20967741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,13 +847,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/custom-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5175">
-          <caret line="393" column="17" lean-forward="true" selection-start-line="393" selection-start-column="17" selection-end-line="393" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/AddShopType.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -989,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,19 +890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1251">
           <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-575">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,14 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-308">
           <caret line="129" column="21" lean-forward="false" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-          <folding>
-            <element signature="e#3551#3552#0" expanded="false" />
-            <element signature="e#3569#3570#0" expanded="false" />
-            <marker date="1533382617735" expanded="true" signature="883:1019" ph="insert into userorder... " />
-            <marker date="1533382617735" expanded="true" signature="2164:2266" ph="select id,or... userorder" />
-            <marker date="1533382617735" expanded="true" signature="3859:3971" ph="select id,or... userorder" />
-            <marker date="1533382617735" expanded="true" signature="5142:5173" ph="select count... userorder" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,17 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1100">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <marker date="1532587210728" expanded="true" signature="799:850" ph="insert into cart... " />
-            <marker date="1532587210728" expanded="true" signature="1493:1520" ph="delete from cart... " />
-            <marker date="1532587210728" expanded="true" signature="2131:2170" ph="update cart... " />
-            <marker date="1532587210728" expanded="true" signature="2881:2922" ph="select id,pr... cart" />
-            <marker date="1532587210728" expanded="true" signature="3984:4022" ph="update cart... " />
-            <marker date="1532587210728" expanded="true" signature="4700:4752" ph="select id,pr... cart" />
-            <marker date="1532587210728" expanded="true" signature="5685:5744" ph="select id,pr... cart" />
-            <marker date="1532587210728" expanded="true" signature="6683:6734" ph="select id,pr... cart" />
-            <marker date="1532587210728" expanded="true" signature="7494:7520" ph="select count... cart" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1171,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="282" column="22" lean-forward="false" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1211,7 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,7 +1160,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="52" column="70" lean-forward="false" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,14 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1354,19 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,7 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="32" column="5" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1397,9 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1375">
           <caret line="123" column="55" lean-forward="false" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1408,8 +1240,39 @@
         <state relative-caret-position="275">
           <caret line="46" column="54" lean-forward="false" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
           <folding>
-            <element signature="e#1567#1582#0" expanded="true" />
+            <element signature="e#1567#1582#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3475">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.entity/PageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

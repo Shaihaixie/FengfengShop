@@ -91,7 +91,7 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
 			}
 			PageModel<Cart> pageModel=cartService.findCartByPage(_pageNo, _pageSize);
 			req.setAttribute("pageModel", pageModel);
-		req.getRequestDispatcher("cart.jsp").forward(req, resp);
+//		req.getRequestDispatcher("cart.jsp").forward(req, resp);
 			//´«Ò³Ãæ
   		      PrintWriter pw=resp.getWriter();
      String     callback=     req.getParameter("callback");
@@ -156,13 +156,10 @@ else {
  * 
  **/
 public void deleteCart(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
-	
 	boolean flag=cartService.deleteCart(Integer.parseInt(request.getParameter("id")));
-	
 	if(flag) {
 		System.out.println("É¾³ý³É¹¦");
-//	   findCartByPage(request, response);
-		response.sendRedirect("http://localhost:52861/xiaomiShop/gouwuche.html?_ijt=ig1j07t0cahg329m1g5bm9gi84");
+		findCartByPage(request,response);
 	}else {
 		System.out.println("É¾³ýÊ§°Ü");
 	}
