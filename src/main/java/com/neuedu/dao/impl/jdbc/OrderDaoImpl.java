@@ -5,21 +5,19 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.neuedu.dao.CartDao;
 import com.neuedu.dao.OrderDao;
 import com.neuedu.dao.ProductDao;
-import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.UserOrder;
 import com.neuedu.utils.DBUtils;
 
 public class OrderDaoImpl implements OrderDao {
 	ProductDao productDao=new ProductDaoImpl();
-	   CartDao  cartDao=new CartDaoImpl();
+	   CartDao cartDao=new CartDaoImpl();
 	@Override
 	public boolean createOrder(UserOrder userOrder) {
 		// TODO Auto-generated method stub

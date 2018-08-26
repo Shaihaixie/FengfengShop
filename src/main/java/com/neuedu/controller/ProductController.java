@@ -14,12 +14,25 @@ import com.alibaba.fastjson.JSONArray;
 import com.google.gson.Gson;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
+import com.neuedu.service.CartService;
 import com.neuedu.service.ProductService;
 import com.neuedu.service.impl.ProductServiceImpl;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 @WebServlet("/view/product")
 public class ProductController extends HttpServlet {
-	ProductService pService = new ProductServiceImpl();
+	ProductService pService ;
+			//= new ProductServiceImpl();
+			@Override
+			public  void  init()  throws  ServletException{
+
+//获取ioc容器
+				WebApplicationContext mWebApplicationContext
+						= WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+				pService= (ProductService) mWebApplicationContext.getBean("pService");
+
+			}
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
@@ -45,6 +58,9 @@ public class ProductController extends HttpServlet {
 		else if (operation.equals("7")) {
 			findAllorder(req, resp);
 		}
+			else if (operation.equals("8")) {
+				findAll1(req, resp);
+			}
 	}
 	}
 	@Override
@@ -62,31 +78,26 @@ public class ProductController extends HttpServlet {
 		Product product = new Product();
 		String name = req.getParameter("pname");
 		String desc = req.getParameter("pdesc");
-//		String image = req.getParameter("pimage");
-//		String rule = req.getParameter("rule");
 		double price = 0.0;
 		int stock = 0;
 		boolean result = false;
 		try {
 			price = Double.parseDouble(req.getParameter("price"));
-//			stock = Integer.parseInt(req.getParameter("stock"));
 			product.setName(name);
 			product.setDesc(desc);
 			product.setPrice(price);
-//			product.setImage(image);
-//			product.setRule(rule);
-//			product.setStock(stock);
 			result = addProduct(product);
-//			findAll(req, resp);
-
+			if (result){
+				System.out.println("添加成功");
+				findAll1(req,resp);
+			}
+			else {
+				System.out.println("添加失败");
+			}
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-		if (result) {
-			System.out.println("添加成功");
-		} else {
-			System.out.println("添加失败");
-		}
+
 
 	}
 
@@ -132,6 +143,25 @@ public class ProductController extends HttpServlet {
 //        req.getRequestDispatcher("ShopList.jsp").forward(req, resp);
 	}
 
+	public void findAll1(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String pageNo = req.getParameter("pageNo");
+		String pageSize = req.getParameter("pageSize");
+		int _pageNo = 1;
+		int _pageSize = 6;
+		try {
+			if(pageNo!=null) {
+				_pageNo = Integer.parseInt(pageNo);
+				//_pageSize = Integer.parseInt(pageSize);
+				}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		PageModel<Product> pageModel = pService.findProductByPage(_pageNo, _pageSize);
+		req.setAttribute("pageModel", pageModel);
+		req.getRequestDispatcher("ShopList.jsp").forward(req, resp);
+
+
+	}
 	/** 淇敼鍟嗗搧 */
 	public void updateProduct(HttpServletRequest req, HttpServletResponse resp) {
 		Product product = pService.findProductById(Integer.parseInt(req.getParameter("id")));

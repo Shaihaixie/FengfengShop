@@ -8,10 +8,14 @@ import com.neuedu.dao.mabaits.CartMybaits;
 import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.service.CartService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("cartService")
 public class CartServiceImpl implements CartService {
 
 //	CartDao cartDao=new CartDaoImpl();
+	@Autowired
 	CartDao cartDao;
 
 	public void setCartDao(CartDao cartDao) {

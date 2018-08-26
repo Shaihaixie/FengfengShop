@@ -15,6 +15,7 @@ public interface ProductDao {
 	 * �鿴��Ʒ
 	 * */
 	List<Product> findAll();
+	List<Product> findAll1();
 	List<Product> findAllorder();
 	/**
 	 * �޸���Ʒ

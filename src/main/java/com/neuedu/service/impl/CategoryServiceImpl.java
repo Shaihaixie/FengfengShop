@@ -9,9 +9,13 @@ import com.neuedu.dao.mabaits.CategoryMybaits;
 import com.neuedu.entity.Category;
 import com.neuedu.entity.PageModel;
 import com.neuedu.service.CategoryService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("cService")
 public class CategoryServiceImpl implements CategoryService {
 //	CategoryDao categoryDao=new CategoryDaoImpl();
+@Autowired
 CategoryDao categoryDao;
 
 	public void setCategoryDao(CategoryDao categoryDao) {

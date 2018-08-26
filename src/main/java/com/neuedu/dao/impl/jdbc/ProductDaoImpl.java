@@ -99,6 +99,11 @@ public class ProductDaoImpl implements ProductDao {
 	}
 
 	@Override
+	public List<Product> findAll1() {
+		return null;
+	}
+
+	@Override
 	public List<Product> findAllorder() {
 		// TODO Auto-generated method stub
 	List<Product> products=new ArrayList<Product>();

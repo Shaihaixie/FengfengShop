@@ -12,9 +12,7 @@ import com.alibaba.fastjson.JSONArray;
 import com.neuedu.dao.CartDao;
 import com.neuedu.dao.ProductDao;
 import com.neuedu.entity.Cart;
-import com.neuedu.entity.Category;
 import com.neuedu.entity.PageModel;
-import com.neuedu.entity.Product;
 import com.neuedu.utils.DBUtils;
 
 public class CartDaoImpl implements CartDao {

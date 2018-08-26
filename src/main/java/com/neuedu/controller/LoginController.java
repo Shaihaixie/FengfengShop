@@ -13,26 +13,45 @@ import javax.servlet.http.HttpSession;
 
 import com.google.gson.Gson;
 import com.neuedu.entity.Account;
+import com.neuedu.service.CartService;
 import com.neuedu.service.ILoginService;
+import com.neuedu.service.ProductService;
 import com.neuedu.service.impl.LoginServiceImpl;
 import com.neuedu.utils.MD5Utils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 
 /**
  * 负责接收用户用户名、密码
  * */
 @WebServlet("/login.do")
+//@Controller
 public class LoginController extends HttpServlet {
-
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+ //  @Autowired
+	ILoginService  loginService;
+	@Override
+	public  void  init()  throws  ServletException{
 
+//获取ioc容器
+	WebApplicationContext mWebApplicationContext
+			= WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+	loginService= (ILoginService) mWebApplicationContext.getBean("loginService");
+		System.out.println(loginService);
+	}
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		ILoginService  loginService=new LoginServiceImpl();
+
+				//=new LoginServiceImpl();
 		
 		 String  name=req.getParameter("name");
 		 String   pas=req.getParameter("pas");   
@@ -71,7 +90,7 @@ public class LoginController extends HttpServlet {
 	 * */
 	public  Account login(String username,String password) {
 		
-		ILoginService  loginService=new LoginServiceImpl();
+		//ILoginService  loginService=new LoginServiceImpl();
 		return loginService.doLogin(username, password);
 		
 		

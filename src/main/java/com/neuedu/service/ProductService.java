@@ -11,6 +11,7 @@ public interface ProductService {
     public  boolean addProduct(Product product);	
     /**查询商品*/
     public  List<Product> findAll();
+    public  List<Product> findAll1();
     public  List<Product> findAllorder();
     /**修改商品*/
     public  boolean  updateProduct(Product product);

@@ -31,6 +31,7 @@ public class CartController extends HttpServlet{
 	 */
 	private static final long serialVersionUID = 1L;
 CartService cartService;
+	ProductService pService ;
  @Override
 		public  void  init()  throws  ServletException{
 
@@ -38,9 +39,9 @@ CartService cartService;
 	 WebApplicationContext mWebApplicationContext
 			 = WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
 	 cartService= (CartService) mWebApplicationContext.getBean("cartService");
-
+	 pService= (ProductService) mWebApplicationContext.getBean("pService");
  }
-	ProductService  pService=new ProductServiceImpl();
+	//ProductService  pService=new ProductServiceImpl();
 	@Override
 protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 	// TODO Auto-generated method stub
@@ -68,6 +69,10 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 			}else if (operation.equals("7")) {
 				findCartById2(req, resp);
 			}
+			  else if (operation.equals("8")) {
+				  findCartByPage2(req, resp);
+			  }
+
 	}
 }
 @Override
@@ -111,8 +116,24 @@ protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws S
 //			pw.write("data("+result+")");
 			
 	    }
-
-
+//∫ÛÃ®∑÷“≥
+	public  void findCartByPage2(HttpServletRequest req,HttpServletResponse resp) throws ServletException, IOException{
+		resp.setContentType("text/html;charset=utf-8");
+		req.setCharacterEncoding("utf-8");
+		String pageNo=  req.getParameter("pageNo");
+		String pageSize=  req.getParameter("pageSize");
+		int _pageNo=1;
+		int _pageSize=5;
+		try {
+			_pageNo=Integer.parseInt(pageNo);
+			_pageSize=Integer.parseInt(pageSize);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		PageModel<Cart> pageModel=cartService.findCartByPage(_pageNo, _pageSize);
+		req.setAttribute("pageModel", pageModel);
+        req.getRequestDispatcher("cart.jsp").forward(req, resp);
+	}
 
 
 
@@ -170,10 +191,10 @@ public void deleteCart(HttpServletRequest request,HttpServletResponse response) 
  **/
 public  void findAll(HttpServletRequest req,HttpServletResponse resp) throws ServletException, IOException{
 	List<Cart> carts= cartService.findAllCart();
-//	String info=JSONArray.toJSONString(carts);
-//	resp.getWriter().print(info);
+String info=JSONArray.toJSONString(carts);
+	resp.getWriter().print(info);
 	 req.setAttribute("carts", carts);
-	req.getRequestDispatcher("cart.jsp").forward(req, resp);
+	//req.getRequestDispatcher("cart.jsp").forward(req, resp);
 }
 
 	/**
@@ -188,9 +209,9 @@ public  void addCart(HttpServletRequest req,HttpServletResponse resp) throws Ser
 	  boolean result=false;
 	  try {
 		  productid=Integer.parseInt(req.getParameter("pid"));
-		  productnum=Integer.parseInt(req.getParameter("productnum"));
-		  ProductController  productController=new ProductController();
-		   Product  product= productController.findProductById(productid);
+		   productnum=Integer.parseInt(req.getParameter("productnum"));
+	    //	ProductController  productController=new ProductController();
+		   Product  product= pService.findProductById(productid);
 		   cart.setProductid(productid);
 		  cart.setProduct(product);
 		  cart.setProductNum(productnum);

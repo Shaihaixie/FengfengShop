@@ -11,6 +11,7 @@ import java.util.List;
 
 import com.neuedu.dao.ILoginDao;
 import com.neuedu.entity.Account;
+import com.neuedu.entity.LogBean;
 import com.neuedu.entity.Product;
 import com.neuedu.utils.DBUtils;
 
@@ -134,6 +135,11 @@ public class LoginDaoImpl implements ILoginDao {
 		
 		
 		return null;
+	}
+
+	@Override
+	public void updateAccount(String username, int money) {
+
 	}
 
 

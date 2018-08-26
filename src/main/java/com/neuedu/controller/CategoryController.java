@@ -28,10 +28,8 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 public class CategoryController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	CategoryService cService;
-	ProductService pService=new ProductServiceImpl();
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
+	ProductService pService;
+//			=new ProductServiceImpl();
     public CategoryController() {
         super();
         // TODO Auto-generated constructor stub
@@ -43,7 +41,7 @@ public class CategoryController extends HttpServlet {
 		WebApplicationContext mWebApplicationContext
 				= WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
 		cService= (CategoryService) mWebApplicationContext.getBean("cService");
-
+          pService=(ProductService) mWebApplicationContext.getBean("pService");
 	}
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)

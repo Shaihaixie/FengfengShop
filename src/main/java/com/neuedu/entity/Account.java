@@ -8,6 +8,11 @@ public class  Account{
 	public  String  password;
 	public  String  ip;
 	public  String  sex;
+	public  int moeny;
+	public  Account(String username,int moeny){
+		this.username = username;
+		this.moeny=moeny;
+	}
     public Account(int accountId, String username, String password, String ip, String sex) {
 		super();
 		this.accountId = accountId;

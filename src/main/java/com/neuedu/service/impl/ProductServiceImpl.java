@@ -8,12 +8,17 @@ import com.neuedu.dao.mabaits.ProductMybaits;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 import com.neuedu.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("pService")
 public class ProductServiceImpl implements ProductService {
 
 	
 //	ProductDao productDao=new ProductDaoImpl();
-	ProductDao productDao=new ProductMybaits();
+@Autowired
+	ProductDao productDao;
+		//=new ProductMybaits();
 	@Override
 	public boolean addProduct(Product product) {
 		// TODO Auto-generated method stub
@@ -25,6 +30,11 @@ public class ProductServiceImpl implements ProductService {
 	public List<Product> findAll() {
 		// TODO Auto-generated method stub
 		return productDao.findAll();
+	}
+
+	@Override
+	public List<Product> findAll1() {
+		return productDao.findAll1();
 	}
 
 	@Override

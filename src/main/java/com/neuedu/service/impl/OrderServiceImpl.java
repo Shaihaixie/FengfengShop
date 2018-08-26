@@ -22,13 +22,24 @@ import com.neuedu.entity.UserOrder;
 import com.neuedu.entity.UserOrderItem;
 import com.neuedu.service.OrderService;
 import com.neuedu.utils.Utils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service("orderService")
 public class OrderServiceImpl implements OrderService {
 //OrderDao orderDao=new OrderDaoImpl();
-OrderDao orderDao=new OrderMybaits();
-CartDao CartDao=new CartMybaits();
-OrderItemDao OrderItemDao=new OrderItemMybatis();
-ProductDao ProductDao=new ProductMybaits();
+@Autowired
+OrderDao orderDao;
+	@Autowired
+	CartDao CartDao;
+	@Autowired
+	OrderItemDao OrderItemDao;
+	@Autowired
+	ProductDao ProductDao;
+//OrderDao orderDao=new OrderMybaits();
+//CartDao CartDao=new CartMybaits();
+//OrderItemDao OrderItemDao=new OrderItemMybatis();
+//ProductDao ProductDao=new ProductMybaits();
 	@Override
 	public boolean createOrder(UserOrder userOrder) {
 		return false;

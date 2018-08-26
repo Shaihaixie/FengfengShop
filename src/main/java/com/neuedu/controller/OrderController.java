@@ -14,10 +14,13 @@ import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 import com.neuedu.entity.UserOrder;
+import com.neuedu.service.CartService;
 import com.neuedu.service.OrderService;
 import com.neuedu.service.ProductService;
 import com.neuedu.service.impl.OrderServiceImpl;
 import com.neuedu.service.impl.ProductServiceImpl;
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 @WebServlet("/view/Order")
 public class OrderController extends HttpServlet {
@@ -26,7 +29,17 @@ public class OrderController extends HttpServlet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	OrderService orderService=new OrderServiceImpl();
+	OrderService orderService;
+			//=new OrderServiceImpl();
+			@Override
+			public  void  init()  throws  ServletException{
+
+//»ñÈ¡iocÈÝÆ÷
+				WebApplicationContext mWebApplicationContext
+						= WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());
+				orderService= (OrderService) mWebApplicationContext.getBean("orderService");
+
+			}
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
