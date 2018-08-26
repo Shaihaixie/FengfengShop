@@ -182,24 +182,34 @@
                         <a class="active-menu" href="home.jsp"><i class="fa fa-dashboard"></i> 舟渡首页</a>
                     
                     </li> 
-                      <li>
-                          <%--active-menu--%>
+                    <%--  <li>
+                          &lt;%&ndash;active-menu&ndash;%&gt;
                           <a class=" sp" style="background-color: #18A0A9"   href="v#"><i class="fa fa-fw fa-file   "></i> 商品</a>
-                          <%--dropdown-menu nav nav-second-level--%>
-                          <ul class=" mm"  style="list-style-type: none; >
-                          <li ><a style="text-decoration: none;" href="view/productbypage?pageNo=1"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li>
+                          &lt;%&ndash;dropdown-menu nav nav-second-level&ndash;%&gt;
+                          <ul class=" mm"  style="list-style-type: none; >--%>
+
+           <%--       <li><a style="text-decoration: none" href="view/productbypage?pageNo=1"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li>&ndash;%&gt;
                         <li><a style="text-decoration: none" href="view/AddShop.jsp"><i class="fa fa-fw fa-file"></i> 添加商品</a> </li>
                         <li><a  style="text-decoration: none"href="view/Category?pageNo=1&operation=7"><i class="fa fa-fw fa-file"></i> 商品类别</a> </li>
                           <li><a  style="text-decoration: none"href="view/AddShopType.jsp"><i class="fa fa-fw fa-file"></i> 添加类别</a> </li>
                           </ul>
-                        </li>
+                        </li>--%>
 
+                <li>
+                    <a class=" sp" style="background-color: #18A0A9"   href="v#"><i class="fa fa-fw fa-file   "></i> 商品</a>
 
+                    <ul class=" mm"  style="list-style-type: none;">
+                        <li><a  style="text-decoration: none;" href="view/product?pageNo=1&operation=8"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li>
+                        <li><a  style="text-decoration: none;"  href="view/AddShop.jsp"><i class="fa fa-fw fa-file"></i> 添加商品</a> </li>
+                        <li><a  style="text-decoration: none;" href="view/Category?pageNo=1&operation=7"><i class="fa fa-fw fa-file"></i> 商品类别</a> </li>
+                        <li><a style="text-decoration: none;"  href="view/AddShopType.jsp"><i class="fa fa-fw fa-file"></i> 添加类别</a> </li>
+                    </ul>
+                </li>
                     <li>
-                        <a  class="active-menu" href="view/Cart?operation=6"><i class="fa fa-fw fa-file"></i> 购物车</a>
+                        <a  class="active-menu" href="view/Cart?operation=8"><i class="fa fa-fw fa-file"></i> 购物车</a>
                     </li>
                      <li>
-                       <a  class="active-menu" href="view/Order?operation=3" ><i
+                       <a  class="active-menu" href="view/Order?operation=5" ><i
 						class="fa fa-fw fa-file"></i>订单列表</a>
                     </li>
                 </ul>

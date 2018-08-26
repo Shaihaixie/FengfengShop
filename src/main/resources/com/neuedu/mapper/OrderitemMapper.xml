@@ -9,4 +9,8 @@
             (#{item.order_no},#{item.user_id},#{item.product_id},#{item.product_name},#{item.product_image},#{item.current_unit_price},#{item.quantity},#{item.total_price},now())
         </foreach>
     </insert>
+
+ <select id="findorderitem" parameterType="long" resultType="com.neuedu.entity.UserOrderItem">
+     SELECT *FROM userorderitem WHERE order_no=#{order_no}
+ </select>
 </mapper>

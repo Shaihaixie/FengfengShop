@@ -83,7 +83,6 @@
           $("#btn2").click(function(){
         	  $("#container").empty()
              $.ajax({
-            	
                  type : 'post' ,
                  url : 'http://localhost:8080/FengSHOP/view/product?operation=7',
                 	 dataType : 'json' ,
@@ -97,8 +96,6 @@
                      $("#container").remove('sss')
                  }
              })
-
-
          })        
         $.ajax({
             type :'post',

@@ -32,9 +32,6 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 @WebServlet("/login.do")
 //@Controller
 public class LoginController extends HttpServlet {
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
  //  @Autowired
 	ILoginService  loginService;
@@ -50,9 +47,7 @@ public class LoginController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-
 				//=new LoginServiceImpl();
-		
 		 String  name=req.getParameter("name");
 		 String   pas=req.getParameter("pas");   
 		Account account=loginService.doLogin(name, MD5Utils.GetMD5Code(pas));

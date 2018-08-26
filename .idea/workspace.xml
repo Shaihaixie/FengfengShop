@@ -6,17 +6,105 @@
     </artifacts-to-build>
   </component>
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java" line="26" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java" line="29" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a72fc0-ab8c-4951-9c58-9b7ffa0c54b2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/FengSHOP_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/FengSHOP_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" />
+      <change beforePath="$PROJECT_DIR$/FengSHOP.iml" afterPath="$PROJECT_DIR$/FengSHOP.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/ProductTest.java" afterPath="$PROJECT_DIR$/src/Test/java/com/neuedu/test/ProductTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.dao/ILoginDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.dao/ILoginDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderItemDao.java" afterPath="$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderItemDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controller/LoginController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/controller/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controller/OrderController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/controller/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/controller/ProductController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CategoryMybaits.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CategoryMybaits.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LoginMybaits.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LoginMybaits.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/ProductMybaits.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/ProductMybaits.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/filter/CheckLogin.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/filter/CheckLogin.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/CartServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/CartServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/OrderServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Spring-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/Spring-config.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/LoginMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/LoginMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderitemMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderitemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/productt.html" afterPath="$PROJECT_DIR$/src/main/webapp/productt.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/AddShop.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/AddShop.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/AddShopType.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/AddShopType.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/BuyShop.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/BuyShop.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/Order.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/Order.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/ShopList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/ShopList.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/ShopType.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/ShopType.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/SonShop.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/SonShop.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/UpCart.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/UpCart.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/UpShopList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/UpShopList.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/UpShopType.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/UpShopType.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/cart.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/cart.jsp" />
       <change beforePath="$PROJECT_DIR$/target/FengSHOP.war" afterPath="$PROJECT_DIR$/target/FengSHOP.war" />
       <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CartController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CartController.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/CategoryController.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/LoginController.class" />
       <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/OrderController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/OrderController.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/controller/ProductController.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/ILoginDao.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/ILoginDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/OrderItemDao.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/OrderItemDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/ProductDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/CartDaoImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/CartDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/LoginDaoImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/LoginDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/ProductDaoImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/dao/impl/jdbc/ProductDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/Account.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/entity/Account.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/ProductService.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/ProductService.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CartServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/CategoryServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/LoginServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/OrderServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/FengSHOP/WEB-INF/classes/com/neuedu/service/impl/ProductServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/home.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/home.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/AddShop.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/AddShop.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/AddShopType.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/AddShopType.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/BuyShop.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/BuyShop.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/Order.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/Order.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/ShopList.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/ShopList.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/ShopType.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/ShopType.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/SonShop.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/SonShop.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/UpCart.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/UpCart.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/UpShopList.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/UpShopList.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/UpShopType.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/UpShopType.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/FengSHOP/view/cart.jsp" afterPath="$PROJECT_DIR$/target/FengSHOP/view/cart.jsp" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CartController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CartController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/CategoryController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/LoginController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/OrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/OrderController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/controller/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/controller/ProductController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/ILoginDao.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/ILoginDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/OrderItemDao.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/OrderItemDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/ProductDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/CartDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/CartDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/LoginDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/LoginDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/OrderDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/ProductDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/dao/impl/jdbc/ProductDaoImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/entity/Account.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/entity/Account.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/ProductService.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/ProductService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CartServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CartServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/CategoryServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/LoginServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/LoginServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/OrderServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/ProductServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/neuedu/service/impl/ProductServiceImpl.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,11 +135,13 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Aspect" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,57 +157,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/view/BuyShop.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/cart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/Order.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/ShopList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/SonShop.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/UpCart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/UpShopList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/UpShopType.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/ShopType.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LoginMybaits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/CategoryDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CategoryMybaits.java" />
-        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CategoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.filter/CheckLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/cart.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/xiaomiShop/jiesuan.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/xiaomiShop/gouwuche.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderitemMapper.xml" />
-        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/a.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.entity/LogBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/LoginMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/aspect/adsa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/aspect/LogAspect2.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/aspect/LogAspect.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao/LogDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/LogDaoImol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao1/CartDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao1/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao1/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/CartDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao/CartDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CartServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CategoryController.java" />
-        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Cart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/CartDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/OrderDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.entity/UserOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/accountMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/LoginDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/AccountServiceImol.java" />
+        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/aspect/LogAspect.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/logMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java" />
-        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderitemTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CartMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.entity/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/ProductMybaits.java" />
-        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/ProductTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/Order.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/OrderImplService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/OrderImplServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/impl/jdbc/OrderItemDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderItemDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderitemMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/orderItem.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/Test/java/com/neuedu/test/accountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/filter/CheckLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LogMybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.neuedu.dao/ILoginDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/productt.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LoginMybaits.java" />
       </list>
     </option>
   </component>
@@ -154,9 +244,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="413" />
-    <option name="width" value="1072" />
-    <option name="height" value="746" />
+    <option name="x" value="-6" />
+    <option name="y" value="14" />
+    <option name="width" value="1386" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,9 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,20 +281,31 @@
               <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FengSHOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WORK_APP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,13 +317,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/neuedu/dao" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\WORK_APP\src\main\resources\com\neuedu\mapper" />
       <recent name="F:\WORK_APP\src\main\resources\com.neuedu.mapper" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.neuedu.utils" />
+      <recent name="com.neuedu.login.front" />
+      <recent name="com.neuedu.filter" />
+      <recent name="com.neuedu.entity" />
+      <recent name="com.neuedu.dao.impl.jdbc" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neuedu.dao" />
+      <recent name="com.neuedu.aspect" />
       <recent name="tset" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -268,14 +377,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="adsa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.neuedu.test.*" />
+          <option name="PATTERN" value="com.neuedu.aspect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.a" />
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.aspect.adsa" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -312,7 +421,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CartTest.deletecart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartTest.addcart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.neuedu.test.*" />
@@ -324,7 +433,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.neuedu.test" />
       <option name="MAIN_CLASS_NAME" value="com.neuedu.test.CartTest" />
-      <option name="METHOD_NAME" value="deletecart" />
+      <option name="METHOD_NAME" value="addcart" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -337,7 +446,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CartTest.testallCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.testCreatOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.neuedu.test.*" />
@@ -348,8 +457,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.neuedu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.CartTest" />
-      <option name="METHOD_NAME" value="testallCart" />
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.OrderTest" />
+      <option name="METHOD_NAME" value="testCreatOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -387,56 +496,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ProductTest.testFindProductByid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.neuedu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FengSHOP" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.neuedu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.ProductTest" />
-      <option name="METHOD_NAME" value="testFindProductByid" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="ProductTest.testUpdateStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.neuedu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FengSHOP" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.neuedu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.ProductTest" />
-      <option name="METHOD_NAME" value="testUpdateStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -446,6 +505,56 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="accountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.neuedu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FengSHOP" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.neuedu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.accountTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="accountTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.neuedu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FengSHOP" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.neuedu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.test.accountTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -492,6 +601,7 @@
       <listeners />
     </configuration>
     <configuration name="newtomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -661,18 +771,19 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit." />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.newtomcat" />
       <item index="3" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
-      <item index="4" class="java.lang.String" itemvalue="Application.a" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.ProductTest.testFindProductByid" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ProductTest.testUpdateStock" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.CartTest.deletecart" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.CartTest.testallCart" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CartTest.addcart" />
+      <item index="5" class="java.lang.String" itemvalue="Application.adsa" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.accountTest.test" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.accountTest" />
+      <item index="8" class="java.lang.String" itemvalue="JUnit.OrderTest.testCreatOrder" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ProductTest.testFindProductByid" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ProductTest.testUpdateStock" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CartTest.testallCart" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CartTest.deletecart" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.accountTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrderTest.testCreatOrder" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.accountTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.adsa" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CartTest.addcart" />
       </list>
     </recent_temporary>
   </component>
@@ -724,44 +835,136 @@
       <workItem from="1533467345631" duration="4010000" />
       <workItem from="1533514720746" duration="1873000" />
       <workItem from="1533521069715" duration="683000" />
-      <workItem from="1533559791627" duration="77000" />
+      <workItem from="1533559791627" duration="5169000" />
+      <workItem from="1533605368673" duration="7208000" />
+      <workItem from="1533627945682" duration="790000" />
+      <workItem from="1533637433340" duration="65000" />
+      <workItem from="1533641805802" duration="1624000" />
+      <workItem from="1533689104657" duration="2086000" />
+      <workItem from="1533693013716" duration="789000" />
+      <workItem from="1533706749630" duration="20953000" />
+      <workItem from="1533733838231" duration="705000" />
+      <workItem from="1533736010453" duration="716000" />
+      <workItem from="1533773260377" duration="4514000" />
+      <workItem from="1533782171900" duration="26663000" />
+      <workItem from="1533817761227" duration="4857000" />
+      <workItem from="1533822681674" duration="403000" />
+      <workItem from="1533858937403" duration="17404000" />
+      <workItem from="1533885183937" duration="658000" />
+      <workItem from="1533887895633" duration="9000" />
+      <workItem from="1533894717099" duration="649000" />
+      <workItem from="1533901129445" duration="476000" />
+      <workItem from="1533905009396" duration="395000" />
+      <workItem from="1533950162338" duration="1662000" />
+      <workItem from="1533957776873" duration="821000" />
+      <workItem from="1533965990700" duration="1001000" />
+      <workItem from="1533973042317" duration="287000" />
+      <workItem from="1533982213075" duration="1348000" />
+      <workItem from="1533988138868" duration="2815000" />
+      <workItem from="1533993964396" duration="208000" />
+      <workItem from="1534075578032" duration="807000" />
+      <workItem from="1534118467285" duration="147000" />
+      <workItem from="1534124217349" duration="76000" />
+      <workItem from="1534126455890" duration="62000" />
+      <workItem from="1534126920564" duration="15000" />
+      <workItem from="1534129123360" duration="628000" />
+      <workItem from="1534131649373" duration="57000" />
+      <workItem from="1534134681574" duration="244000" />
+      <workItem from="1534141396534" duration="64000" />
+      <workItem from="1534142063412" duration="16000" />
+      <workItem from="1534144520418" duration="156000" />
+      <workItem from="1534148737208" duration="26000" />
+      <workItem from="1534150081854" duration="18000" />
+      <workItem from="1534157893668" duration="1246000" />
+      <workItem from="1534161097455" duration="61000" />
+      <workItem from="1534165525388" duration="192000" />
+      <workItem from="1534168660697" duration="1486000" />
+      <workItem from="1534212806790" duration="44000" />
+      <workItem from="1534243039487" duration="92000" />
+      <workItem from="1534243191449" duration="1138000" />
+      <workItem from="1534248289006" duration="283000" />
+      <workItem from="1534251449013" duration="15000" />
+      <workItem from="1534336240528" duration="18000" />
+      <workItem from="1534338839769" duration="19000" />
+      <workItem from="1534404150370" duration="181000" />
+      <workItem from="1534406383265" duration="656000" />
+      <workItem from="1534414591642" duration="71000" />
+      <workItem from="1534414756204" duration="151000" />
+      <workItem from="1534415849656" duration="99000" />
+      <workItem from="1534417782620" duration="23000" />
+      <workItem from="1534418250315" duration="19000" />
+      <workItem from="1534420620314" duration="274000" />
+      <workItem from="1534473092849" duration="278000" />
+      <workItem from="1534474273087" duration="8000" />
+      <workItem from="1534494044143" duration="7297000" />
+      <workItem from="1534513435140" duration="31000" />
+      <workItem from="1534554642384" duration="103000" />
+      <workItem from="1534557138532" duration="55000" />
+      <workItem from="1534558328481" duration="48000" />
+      <workItem from="1534570447802" duration="2566000" />
+      <workItem from="1534593202345" duration="342000" />
+      <workItem from="1534660423499" duration="4678000" />
+      <workItem from="1534744716238" duration="211000" />
+      <workItem from="1534746338019" duration="5000" />
+      <workItem from="1534758845856" duration="560000" />
+      <workItem from="1534759425309" duration="3000" />
+      <workItem from="1534761467734" duration="272000" />
+      <workItem from="1534761855236" duration="241000" />
+      <workItem from="1534762990508" duration="22000" />
+      <workItem from="1534763231976" duration="80000" />
+      <workItem from="1534768123695" duration="246000" />
+      <workItem from="1534770998784" duration="96000" />
+      <workItem from="1534812504239" duration="51000" />
+      <workItem from="1534813356066" duration="636000" />
+      <workItem from="1534817108811" duration="1615000" />
+      <workItem from="1534917970350" duration="20000" />
+      <workItem from="1534918522223" duration="191000" />
+      <workItem from="1535006855910" duration="362000" />
+      <workItem from="1535009808849" duration="368000" />
+      <workItem from="1535013608461" duration="2052000" />
+      <workItem from="1535029665138" duration="25000" />
+      <workItem from="1535034600452" duration="133000" />
+      <workItem from="1535088974266" duration="1722000" />
+      <workItem from="1535100452299" duration="86000" />
+      <workItem from="1535100655345" duration="683000" />
+      <workItem from="1535277817593" duration="535000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file=" - 2018.08.05 at 10h 52m 01s.xml">
-      <configuration name="" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.10 at 08h 38m 17s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file=" - 2018.08.05 at 10h 52m 45s.xml">
-      <configuration name="" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.10 at 08h 44m 44s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file=" - 2018.08.05 at 10h 53m 47s.xml">
-      <configuration name="" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.10 at 08h 47m 22s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file=" - 2018.08.05 at 10h 54m 51s.xml">
-      <configuration name="" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.10 at 08h 48m 00s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file=" - 2018.08.05 at 12h 17m 33s.xml">
-      <configuration name="" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.10 at 08h 54m 55s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file=" - 2018.08.05 at 12h 22m 56s.xml">
-      <configuration name="" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.10 at 08h 55m 53s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductTest_testFindProductByid - 2018.08.05 at 14h 47m 34s.xml">
-      <configuration name="ProductTest.testFindProductByid" configurationId="JUnit" />
+    <history-entry file="OrderTest_testCreatOrder - 2018.08.11 at 09h 49m 54s.xml">
+      <configuration name="OrderTest.testCreatOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductTest_testFindProductByid - 2018.08.05 at 14h 47m 51s.xml">
-      <configuration name="ProductTest.testFindProductByid" configurationId="JUnit" />
+    <history-entry file="accountTest_test - 2018.08.09 at 21h 07m 56s.xml">
+      <configuration name="accountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductTest_testFindProductByid - 2018.08.05 at 14h 49m 08s.xml">
-      <configuration name="ProductTest.testFindProductByid" configurationId="JUnit" />
+    <history-entry file="accountTest_test - 2018.08.09 at 21h 08m 18s.xml">
+      <configuration name="accountTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProductTest_testFindProductByid - 2018.08.05 at 14h 52m 06s.xml">
-      <configuration name="ProductTest.testFindProductByid" configurationId="JUnit" />
+    <history-entry file="accountTest_test - 2018.08.11 at 18h 28m 17s.xml">
+      <configuration name="accountTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198563000" />
+    <option name="totallyTimeSpent" value="336766000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -773,24 +976,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="413" y="0" width="1072" height="746" extended-state="0" />
+    <frame x="-6" y="14" width="1386" height="714" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952381" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32454696" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3937397" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7684729" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3196046" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5420099" sideWeight="0.4941435" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4729064" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3760832" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21541502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24057315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -798,15 +1001,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3360791" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63261944" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32289952" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29159802" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="7.564296E-4" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20967741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46293247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -822,18 +1025,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/loginTest.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="133" />
+      <option name="time" value="144" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -847,431 +1042,370 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShopType.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="204" column="33" lean-forward="true" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="203" column="101" lean-forward="false" selection-start-line="203" selection-start-column="92" selection-end-line="203" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/AddShopType.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="265" column="89" lean-forward="true" selection-start-line="265" selection-start-column="89" selection-end-line="265" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/OrderItemDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="83" column="17" lean-forward="true" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/Order.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="282" column="17" lean-forward="true" selection-start-line="282" selection-start-column="17" selection-end-line="282" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/xiaomiShop/gouwuche.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="54" column="59" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="102" column="2" lean-forward="true" selection-start-line="102" selection-start-column="2" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1251">
-          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/productt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.entity/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.utils/MyBatisFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.entity/UserOrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-807">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LoginMybaits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/OrderDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="129" column="21" lean-forward="false" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao.impl.jdbc/CartDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.entity/UserOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="139" column="5" lean-forward="true" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
-          <folding>
-            <element signature="e#753#754#0" expanded="false" />
-            <element signature="e#780#781#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/internal/runners/model/EachTestNotifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="282" column="22" lean-forward="false" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderitemTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/CartTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/CategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CategoryMybaits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
+        <state relative-caret-position="-5915">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1532872754084" expanded="true" signature="273:355" ph="SELECT id,pa... category" />
-            <marker date="1532872754084" expanded="true" signature="447:597" ph="insert into category... " />
-            <marker date="1532872754084" expanded="true" signature="667:835" ph="update category... " />
-            <marker date="1532872754084" expanded="true" signature="925:960" ph="delete from category... " />
-            <marker date="1532872754084" expanded="true" signature="1084:1181" ph="SELECT id,pa... category" />
-            <marker date="1532872754084" expanded="true" signature="1280:1326" ph="select cname... category" />
-            <marker date="1532872754084" expanded="true" signature="1456:1552" ph="select id,cn... category" />
-            <marker date="1532872754084" expanded="true" signature="1507:1551" ph="SELECT id FR... category" />
-            <marker date="1532872754084" expanded="true" signature="1654:1684" ph="select count... category" />
-            <marker date="1532872754084" expanded="true" signature="1802:1913" ph="SELECT id,pa... category" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/AddShop.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="66" column="38" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="66" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="450">
+          <caret line="242" column="33" lean-forward="true" selection-start-line="242" selection-start-column="33" selection-end-line="242" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CartServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/login/front/FrontLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-1210">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/CategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/login/front/FrontCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CartMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-          <folding>
-            <marker date="1533365879649" expanded="true" signature="272:346" ph="insert into cart... " />
-            <marker date="1533365879649" expanded="true" signature="438:535" ph="/*SELECT pro... " />
-            <marker date="1533365879649" expanded="true" signature="536:679" ph="SELECT p.nam... product" />
-            <marker date="1533365879649" expanded="true" signature="802:949" ph="SELECT produ... product" />
-            <marker date="1533365879649" expanded="true" signature="907:948" ph="SELECT produ... cart" />
-            <marker date="1533365879649" expanded="true" signature="1031:1062" ph="delete from cart... " />
-            <marker date="1533365879649" expanded="true" signature="1147:1202" ph="update cart... " />
-            <marker date="1533365879649" expanded="true" signature="1305:1331" ph="select count... cart" />
-            <marker date="1533365879649" expanded="true" signature="1435:1606" ph="SELECT p.nam... product" />
-            <marker date="1533365879649" expanded="true" signature="1568:1606" ph="SELECT produ... product" />
-            <marker date="1533365879649" expanded="true" signature="1712:1782" ph="select id,pr... cart" />
-          </folding>
+        <state relative-caret-position="532">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/OrderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/entity/PageModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="13" column="50" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderitemMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/ShopList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/ProductServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="6700">
+          <caret line="268" column="8" lean-forward="false" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/ProductMybaits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="52" column="70" lean-forward="false" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+        <state relative-caret-position="1825">
+          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="84" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.entity/Product.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="107" column="4" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="112" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="-500">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/ProductTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/controller/ProductControllerPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="-25">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/ProductMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/CartDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-777">
-          <caret line="30" column="58" lean-forward="false" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <marker date="1533451914911" expanded="true" signature="303:361" ph="select id,na... product" />
-            <marker date="1533451914911" expanded="true" signature="465:494" ph="select count... product" />
-            <marker date="1533451914911" expanded="true" signature="610:696" ph="select id,na... product" />
-            <marker date="1533451914911" expanded="true" signature="891:1005" ph="insert into product... " />
-            <marker date="1533451914911" expanded="true" signature="1114:1148" ph="delete from product... " />
-            <marker date="1533451914911" expanded="true" signature="1255:1373" ph="update product... " />
-            <marker date="1533451914911" expanded="true" signature="1478:1551" ph="select id,na... product" />
-            <marker date="1533451914911" expanded="true" signature="1686:1777" ph="select id,na... product" />
-            <marker date="1533451914911" expanded="true" signature="1872:1924" ph="select name,... product" />
-            <marker date="1533451914911" expanded="true" signature="2036:2084" ph="update product... " />
-            <marker date="1533451914911" expanded="true" signature="2204:2773" ph="update product... " />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CategoryMybaits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/LogDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/OrderMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/productt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <marker date="1533383271455" expanded="true" signature="285:387" ph="select id,or... userorder" />
-            <marker date="1533383271455" expanded="true" signature="483:514" ph="select count... userorder" />
-            <marker date="1533383271455" expanded="true" signature="633:764" ph="select id,or... userorder" />
-            <marker date="1533383271455" expanded="true" signature="853:1053" ph="insert into userorder... " />
-            <marker date="1533383271455" expanded="true" signature="1633:1878" ph="select uo.or... userorder" />
-            <marker date="1533383271455" expanded="true" signature="1633:1910" ph="select uo.or... userorder" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="123" column="55" lean-forward="false" selection-start-line="123" selection-start-column="55" selection-end-line="123" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.service.impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="46" column="54" lean-forward="false" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-          <folding>
-            <element signature="e#1567#1582#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="250">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/utils/MyBatisFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/filter/CheckLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="46" column="41" lean-forward="false" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/impl/jdbc/CartDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/accountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/neuedu/mapper/CartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/impl/jdbc/LoginDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1193">
+          <caret line="40" column="37" lean-forward="false" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/impl/jdbc/LogDaoImol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="66" lean-forward="true" selection-start-line="28" selection-start-column="66" selection-end-line="28" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.controller/CartController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3475">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="100">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.entity/PageModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="125">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LoginMybaits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/ILoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/OrderImplServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/OrderImplService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/ILoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.neuedu.dao/OrderItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderMybaits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/aspect/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="69" column="68" lean-forward="true" selection-start-line="69" selection-start-column="68" selection-end-line="69" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3475">
+          <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="40" column="78" lean-forward="false" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/CartMybaits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/LogMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/dao/mabaits/OrderItemMybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/neuedu/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/java/com/neuedu/test/accountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>

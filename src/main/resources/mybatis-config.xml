@@ -3,7 +3,7 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-     <properties resource="jdbc.properties"></properties>
+     <!--<properties resource="jdbc.properties"></properties>-->
      <settings>
      <setting name="logImpl" value="LOG4J"/>
      </settings>
@@ -12,23 +12,23 @@
 <typeAlias type="com.neuedu.entity.Account" alias="Account"/>
 </typeAliases>
 
-  <environments default="development">
-    <environment id="development">
-      <transactionManager type="JDBC"/>
-      <dataSource type="POOLED">
-        <property name="driver" value="${jdbc.driver}"/>
-        <property name="url" value="${jdbc.url}"/>
-        <property name="username" value="${jdbc.username}"/>
-        <property name="password" value="${jdbc.password}"/>
-      </dataSource>
-    </environment>
-  </environments>
-  <mappers>
-<mapper       resource="com/neuedu/mapper/LoginMapper.xml"/>
-<mapper       resource="com/neuedu/mapper/ProductMapper.xml"/>
-<mapper       resource="com/neuedu/mapper/CartMapper.xml"/>
-<mapper       resource="com/neuedu/mapper/OrderMapper.xml"/>
-      <mapper       resource="com/neuedu/mapper/CategoryMapper.xml"/>
-      <mapper       resource="com/neuedu/mapper/OrderitemMapper.xml"/>
-  </mappers>
+  <!--<environments default="development">-->
+    <!--<environment id="development">-->
+      <!--<transactionManager type="JDBC"/>-->
+      <!--<dataSource type="POOLED">-->
+        <!--<property name="driver" value="${jdbc.driver}"/>-->
+        <!--<property name="url" value="${jdbc.url}"/>-->
+        <!--<property name="username" value="${jdbc.username}"/>-->
+        <!--<property name="password" value="${jdbc.password}"/>-->
+      <!--</dataSource>-->
+    <!--</environment>-->
+  <!--</environments>-->
+  <!--<mappers>-->
+<!--<mapper       resource="com/neuedu/mapper/LoginMapper.xml"/>-->
+<!--<mapper       resource="com/neuedu/mapper/ProductMapper.xml"/>-->
+<!--<mapper       resource="com/neuedu/mapper/CartMapper.xml"/>-->
+<!--<mapper       resource="com/neuedu/mapper/OrderMapper.xml"/>-->
+      <!--<mapper       resource="com/neuedu/mapper/CategoryMapper.xml"/>-->
+      <!--<mapper       resource="com/neuedu/mapper/OrderitemMapper.xml"/>-->
+  <!--</mappers>-->
 </configuration>

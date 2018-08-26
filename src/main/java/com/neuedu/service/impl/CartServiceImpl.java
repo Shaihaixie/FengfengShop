@@ -3,8 +3,6 @@ package com.neuedu.service.impl;
 import java.util.List;
 
 import com.neuedu.dao.CartDao;
-import com.neuedu.dao.impl.jdbc.CartDaoImpl;
-import com.neuedu.dao.mabaits.CartMybaits;
 import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
 import com.neuedu.service.CartService;

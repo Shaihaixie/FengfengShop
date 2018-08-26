@@ -2,18 +2,23 @@ package com.neuedu.dao.mabaits;
 
 import com.neuedu.dao.ILoginDao;
 import com.neuedu.entity.Account;
+import com.neuedu.entity.LogBean;
 import com.neuedu.utils.MyBatisFactory;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.io.IOException;
 import java.io.Reader;
 import java.util.HashMap;
 import java.util.Map;
-
+@Repository
 public class LoginMybaits implements ILoginDao {
+    @Autowired
+    private      SqlSession sqlSession;
     @Override
     public Account doLogin(String _username, String _password) {
 //        1，读取配置文件 ，读取配置文件
@@ -37,16 +42,15 @@ public class LoginMybaits implements ILoginDao {
         /**
          * namespace+id
          */
-        SqlSession session = MyBatisFactory.getSqlSession();
+      //  SqlSession session = MyBatisFactory.getSqlSession();
         Map<String, String> map = new HashMap<String, String>();
         map.put("username", _username);
         map.put("password", _password);
-        Account account = session.selectOne("com.neuedu.entity.Account.findByUsernameAndPassword", map);
+        Account account = sqlSession.selectOne("com.neuedu.entity.Account.findByUsernameAndPassword", map);
         System.out.println(account);
-        session.close();
+        //sqlSession.close();
         return account;
     }
-
     @Override
     public void addToken(String token, Account acc) {
 //        String resource = "mybatis-config.xml";
@@ -59,16 +63,24 @@ public class LoginMybaits implements ILoginDao {
 //             e.printStackTrace();  }
 //            SqlSessionFactory sqlMapper = new SqlSessionFactoryBuilder().build(reader);
 //            session = sqlMapper.openSession(true);
-        SqlSession session = MyBatisFactory.getSqlSession();
+        //SqlSession session = MyBatisFactory.getSqlSession();
         Map<String, String> map = new HashMap<String, String>();
         map.put("token", token);
         map.put("accountid", acc.getAccountId() + "");
-        session.update("com.neuedu.entity.Account.addToken", map);
+        sqlSession.update("com.neuedu.entity.Account.addToken", map);
     }
 
     @Override
     public String findTokenByAccountid(int accountid) {
-        SqlSession session = MyBatisFactory.getSqlSession();
-        return session.selectOne("com.neuedu.entity.Account.findTokenByAccountid", accountid);
+        //SqlSession session = MyBatisFactory.getSqlSession();
+        return sqlSession.selectOne("com.neuedu.entity.Account.findTokenByAccountid", accountid);
     }
+
+    @Override
+    public void updateAccount(String username, int money) {
+        ILoginDao ILoginDao=sqlSession.getMapper(com.neuedu.dao.ILoginDao.class);
+        ILoginDao.updateAccount(username,money);
+    }
+
+
 }

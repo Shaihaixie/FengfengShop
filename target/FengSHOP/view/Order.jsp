@@ -211,14 +211,14 @@
                         <a class=" sp" style="background-color: #18A0A9"   href="v#"><i class="fa fa-fw fa-file   "></i> 商品</a>
 
                         <ul class=" mm"  style="list-style-type: none;">
-                            <li><a  style="text-decoration: none;" href="productbypage?pageNo=1"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li>
+                            <li><a  style="text-decoration: none;" href="product?pageNo=1&operation=8"><i class="fa fa-fw fa-file"></i> 商品列表</a> </li>
                             <li><a  style="text-decoration: none;"  href="AddShop.jsp"><i class="fa fa-fw fa-file"></i> 添加商品</a> </li>
                             <li><a  style="text-decoration: none;" href="Category?pageNo=1&operation=7"><i class="fa fa-fw fa-file"></i> 商品类别</a> </li>
                             <li><a style="text-decoration: none;"  href="AddShopType.jsp"><i class="fa fa-fw fa-file"></i> 添加类别</a> </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="Cart?operation=6"><i class="fa fa-fw fa-file"></i> 购物车</a>
+                        <a href="Cart?operation=8"><i class="fa fa-fw fa-file"></i> 购物车</a>
                     </li>
                     <li>
                        <a  href="Order?operation=3" ><i
@@ -252,6 +252,7 @@
 <th>邮费</th>
 <th>状态</th>
 <th style="width: 160px">下单时间</th>
+<th style="width: 160px">订单明细</th>
 </tr>
 <c:forEach items="${pageModel.data}" var="order">
 <tr>
@@ -265,6 +266,7 @@
 <td>${order.postage}</td>
 <td>${order.status}</td>
 <td style="width: 178px">${order.create_time}</td>
+    <td style="width: 178px"><a href="">查看</a></td>
 </tr>
 </c:forEach>
 </table>
@@ -272,10 +274,10 @@
 <c:forEach  var="pageNo" begin="1" end="${pageModel.totalPage}" step="1" >
 <c:choose>
 <c:when test="${pageModel.currentPage==pageNo}">
-<a style="color: red" href="Order?pageNo=${pageNo}&operation=3">${pageNo}</a>
+<a style="color: red" href="Order?pageNo=${pageNo}&operation=5">${pageNo}</a>
 </c:when>
 <c:when test="${pageModel.currentPage!=pageNo}">
-<a href="Order?pageNo=${pageNo}&operation=3">${pageNo}</a>
+<a href="Order?pageNo=${pageNo}&operation=5">${pageNo}</a>
 </c:when>
 </c:choose>
 </c:forEach>

@@ -2,6 +2,8 @@ package com.neuedu.dao;
 
 import java.util.List;
 
+import com.neuedu.entity.PageModel;
+import com.neuedu.entity.UserOrder;
 import com.neuedu.entity.UserOrderItem;
 
 public interface OrderItemDao {
@@ -16,4 +18,6 @@ public interface OrderItemDao {
 	  * */
 	 
 	 int  generateOrderItemId();
+
+	List<UserOrderItem>  findorder(long NO);
 }

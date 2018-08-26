@@ -26,7 +26,6 @@ public class ProductController extends HttpServlet {
 			//= new ProductServiceImpl();
 			@Override
 			public  void  init()  throws  ServletException{
-
 //获取ioc容器
 				WebApplicationContext mWebApplicationContext
 						= WebApplicationContextUtils.getWebApplicationContext(this.getServletContext());

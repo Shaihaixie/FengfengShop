@@ -4,14 +4,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.neuedu.entity.Product">
     <!--遍历商品-->
-    <select id="FindProduct" resultType="com.neuedu.entity.Product">
+    <select id="FindProduct" resultMap="productmap">
         select id,name,pdesc,price,rule ,image,stock from  product
     </select>
     <!--分页查询-->
     <select id="findTotalCount" resultType="java.lang.Integer">
          select count(id) from product
      </select>
-    <select id="findProductPage" parameterType="map" resultType="com.neuedu.entity.Product">
+    <select id="findProductPage" parameterType="map" resultMap="productmap">
        select id,name,pdesc,price,rule ,image,stock from  product limit #{offest},#{pageSize}
     </select>
     <!--添加商品-->

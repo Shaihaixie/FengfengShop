@@ -4,11 +4,21 @@ import com.neuedu.dao.CartDao;
 import com.neuedu.dao.mabaits.CartMybaits;
 import com.neuedu.entity.Cart;
 import com.neuedu.entity.PageModel;
+import org.junit.Before;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
 public class CartTest {
+
+    CartDao   cartDao;
+    @Before
+    public  void before(){
+        ApplicationContext ApplicationContext=new ClassPathXmlApplicationContext("Spring-config.xml");
+        cartDao= ApplicationContext.getBean(CartDao.class);
+    }
     @Test
     public   void   testallCart(){
         CartDao   cartDao=new CartMybaits();
@@ -22,11 +32,15 @@ public class CartTest {
 
     @Test
     public  void addcart(){
-        CartDao   cartDao=new CartMybaits();
+        CartDao   cartDao;
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Spring-config.xml");
+        cartDao = applicationContext.getBean(CartDao.class);
+//        CartDao   cartDao=new CartMybaits();
          Cart cart=new Cart();
-        cart.setProductid(1);
+        cart.setProductid(100);
         cart.setProductNum(147852);
         cartDao.addCart(cart);
+
     }
 
     @Test

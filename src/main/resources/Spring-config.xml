@@ -1,19 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:p="http://www.springframework.org/schema/p"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
 <!--id name-->
-  <bean id="cartService" class="com.neuedu.service.impl.CartServiceImpl">
+ <!-- <bean id="cartService" class="com.neuedu.service.impl.CartServiceImpl">
    <property name="cartDao" ref="cartDao"></property>
   </bean>
-<bean id="cartDao" class="com.neuedu.dao.mabaits.CartMybaits"></bean>
+<bean id="cartDao" class="com.neuedu.dao.mabaits.CartMybaits"></bean>-->
 <!--类别-->
-    <bean id="cService" class="com.neuedu.service.impl.CategoryServiceImpl">
+   <!-- <bean id="cService" class="com.neuedu.service.impl.CategoryServiceImpl">
         <property name="categoryDao" ref="categoryDao"></property>
     </bean>
-    <bean id="categoryDao" class="com.neuedu.dao.mabaits.CategoryMybaits"></bean>
+    <bean id="categoryDao" class="com.neuedu.dao.mabaits.CategoryMybaits"></bean>-->
 
 
+    <context:component-scan base-package="com.neuedu"></context:component-scan>
+<context:property-placeholder location="classpath:jdbc.properties"></context:property-placeholder>
+    <!--基于aspectj  aop配置-->
 
+    <!-- c3p0带有连接池的数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${jdbc.driver}"></property>
+        <property name="jdbcUrl" value="${jdbc.url}"></property>
+        <property name="user" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+<bean id="sqlSessinFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <property name="configLocation" value="classpath:mybatis-config.xml"></property>
+    <property name="mapperLocations" value="classpath:com/neuedu/mapper/*Mapper.xml"></property>
+    <property name="dataSource" ref="dataSource"></property>
+</bean>
+<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" scope="prototype">
+    <constructor-arg ref="sqlSessinFactory" index="0"></constructor-arg>
+</bean>
+   <!-- <aop:aspectj-autoproxy></aop:aspectj-autoproxy>-->
+<!--&lt;!&ndash;配置spring事物管理器&ndash;&gt;-->
+    <bean  id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+         <property name="dataSource" ref="dataSource"></property>
+    </bean>
+<tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+ <!--   &lt;!&ndash;配置事物切面&ndash;&gt;-->
+
+    <!--<tx:advice id="txAdvice" transaction-manager="transactionManager">-->
+            <!--<tx:attributes>-->
+              <!--<tx:method name="*" isolation="READ_COMMITTED" propagation="REQUIRED" read-only="false"/>-->
+            <!--</tx:attributes>-->
+    <!--</tx:advice>-->
+<!--&lt;!&ndash;&lt;!&ndash;    &lt;!&ndash;aop&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+   <!--<aop:config>-->
+        <!--<aop:pointcut id="myPointcuit" expression="execution(* com.neuedu.service.impl.AccountServiceImpl.transfer(String,String,int))"></aop:pointcut>-->
+        <!--<aop:advisor advice-ref="txAdvice" pointcut-ref="myPointcuit"></aop:advisor>-->
+    <!--</aop:config>-->
 </beans>

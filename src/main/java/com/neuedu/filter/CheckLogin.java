@@ -21,7 +21,6 @@ import com.neuedu.service.impl.LoginServiceImpl;
  */
 @WebFilter("/rdgdgg*")///view/*
 public class CheckLogin implements Filter {
-
     /**
      * Default constructor. 
      */

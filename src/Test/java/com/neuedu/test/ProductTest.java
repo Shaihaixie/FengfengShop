@@ -6,6 +6,8 @@ import com.neuedu.dao.mabaits.ProductMybaits;
 import com.neuedu.entity.PageModel;
 import com.neuedu.entity.Product;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
 
@@ -27,8 +29,10 @@ public class ProductTest {
     }
       @Test
     public    void   testinsertproduct(){
-        ProductDao  ProductDao=new ProductMybaits();
-        Product product=new  Product("8848","hao",33.3,"4444","sss",100);
+          ProductDao  ProductDao;
+          ApplicationContext applicationContext = new ClassPathXmlApplicationContext("Spring-config.xml");
+          ProductDao = applicationContext.getBean(ProductDao.class);
+        Product product=new  Product("阿斯达","hao",33.3,"4444","sss",100);
         System.out.println( ProductDao.addProduct(product));
     }
     @Test
